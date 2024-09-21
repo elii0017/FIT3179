@@ -1,33 +1,9 @@
-States,Quarter,Value
-New South Wales,Mar Qtr 2023,196
-New South Wales,Jun Qtr 2023,195.3
-New South Wales,Mar Qtr 2024,187.8
-New South Wales,Jun Qtr 2024,193.3
-Victoria,Mar Qtr 2023,127.3
-Victoria,Jun Qtr 2023,123
-Victoria,Mar Qtr 2024,116.8
-Victoria,Jun Qtr 2024,110.4
-Queensland,Mar Qtr 2023,242.6
-Queensland,Jun Qtr 2023,246.8
-Queensland,Mar Qtr 2024,250.2
-Queensland,Jun Qtr 2024,252
-South Australia,Mar Qtr 2023,212.5
-South Australia,Jun Qtr 2023,206.6
-South Australia,Mar Qtr 2024,219.2
-South Australia,Jun Qtr 2024,224.2
-Western Australia,Mar Qtr 2023,293.4
-Western Australia,Jun Qtr 2023,302.8
-Western Australia,Mar Qtr 2024,322.3
-Western Australia,Jun Qtr 2024,333.7
-Tasmania,Mar Qtr 2023,153.1
-Tasmania,Jun Qtr 2023,160.2
-Tasmania,Mar Qtr 2024,164.7
-Tasmania,Jun Qtr 2024,168.9
-Northern Territory,Mar Qtr 2023,1066.1
-Northern Territory,Jun Qtr 2023,1107.4
-Northern Territory,Mar Qtr 2024,1160.5
-Northern Territory,Jun Qtr 2024,1150.8
-Australian Capital Territory,Mar Qtr 2023,109.2
-Australian Capital Territory,Jun Qtr 2023,104.9
-Australian Capital Territory,Mar Qtr 2024,106.4
-Australian Capital Territory,Jun Qtr 2024,111.4
+States,Mar Qtr 2023,Jun Qtr 2023,Mar Qtr 2024,Jun Qtr 2024
+New South Wales,196,195.3,187.8,193.3
+Victoria,127.3,123,116.8,110.4
+Queensland,242.6,246.8,250.2,252
+South Australia,212.5,206.6,219.2,224.2
+Western Australia,293.4,302.8,322.3,333.7
+Tasmania,153.1,160.2,164.7,168.9
+Northern Territory,1066.1,1107.4,1160.5,1150.8
+Australian Capital Territory,109.2,104.9,106.4,111.4
