@@ -1,37 +1,33 @@
 States,Quarter,Value
-NSW,Mar Qtr 2023,196
-NSW,Jun Qtr 2023,195.3
-NSW,Mar Qtr 2024,187.8
-NSW,Jun Qtr 2024,193.3
-Vic.,Mar Qtr 2023,127.3
-Vic.,Jun Qtr 2023,123
-Vic.,Mar Qtr 2024,116.8
-Vic.,Jun Qtr 2024,110.4
-Qld,Mar Qtr 2023,242.6
-Qld,Jun Qtr 2023,246.8
-Qld,Mar Qtr 2024,250.2
-Qld,Jun Qtr 2024,252
-SA,Mar Qtr 2023,212.5
-SA,Jun Qtr 2023,206.6
-SA,Mar Qtr 2024,219.2
-SA,Jun Qtr 2024,224.2
-WA,Mar Qtr 2023,293.4
-WA,Jun Qtr 2023,302.8
-WA,Mar Qtr 2024,322.3
-WA,Jun Qtr 2024,333.7
-Tas.,Mar Qtr 2023,153.1
-Tas.,Jun Qtr 2023,160.2
-Tas.,Mar Qtr 2024,164.7
-Tas.,Jun Qtr 2024,168.9
-NT,Mar Qtr 2023,1066.1
-NT,Jun Qtr 2023,1107.4
-NT,Mar Qtr 2024,1160.5
-NT,Jun Qtr 2024,1150.8
-ACT,Mar Qtr 2023,109.2
-ACT,Jun Qtr 2023,104.9
-ACT,Mar Qtr 2024,106.4
-ACT,Jun Qtr 2024,111.4
-Aust.,Mar Qtr 2023,204.9
-Aust.,Jun Qtr 2023,205.5
-Aust.,Mar Qtr 2024,205.7
-Aust.,Jun Qtr 2024,207.9
+New South Wales,Mar Qtr 2023,196
+New South Wales,Jun Qtr 2023,195.3
+New South Wales,Mar Qtr 2024,187.8
+New South Wales,Jun Qtr 2024,193.3
+Victoria,Mar Qtr 2023,127.3
+Victoria,Jun Qtr 2023,123
+Victoria,Mar Qtr 2024,116.8
+Victoria,Jun Qtr 2024,110.4
+Queensland,Mar Qtr 2023,242.6
+Queensland,Jun Qtr 2023,246.8
+Queensland,Mar Qtr 2024,250.2
+Queensland,Jun Qtr 2024,252
+South Australia,Mar Qtr 2023,212.5
+South Australia,Jun Qtr 2023,206.6
+South Australia,Mar Qtr 2024,219.2
+South Australia,Jun Qtr 2024,224.2
+Western Australia,Mar Qtr 2023,293.4
+Western Australia,Jun Qtr 2023,302.8
+Western Australia,Mar Qtr 2024,322.3
+Western Australia,Jun Qtr 2024,333.7
+Tasmania,Mar Qtr 2023,153.1
+Tasmania,Jun Qtr 2023,160.2
+Tasmania,Mar Qtr 2024,164.7
+Tasmania,Jun Qtr 2024,168.9
+Northern Territory,Mar Qtr 2023,1066.1
+Northern Territory,Jun Qtr 2023,1107.4
+Northern Territory,Mar Qtr 2024,1160.5
+Northern Territory,Jun Qtr 2024,1150.8
+Australian Capital Territory,Mar Qtr 2023,109.2
+Australian Capital Territory,Jun Qtr 2023,104.9
+Australian Capital Territory,Mar Qtr 2024,106.4
+Australian Capital Territory,Jun Qtr 2024,111.4
