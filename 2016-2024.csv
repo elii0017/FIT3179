@@ -1,31 +1,31 @@
 State,Demographic,Gender,Year,Count
-NSW,Aboriginal and Torres Strait Islander,Male,2016,3215
-NSW,Aboriginal and Torres Strait Islander,Female,2016,750
-NSW,Aboriginal and Torres Strait Islander,Total,2016,3965
-VIC,Aboriginal and Torres Strait Islander,Male,2016,718
-VIC,Aboriginal and Torres Strait Islander,Female,2016,147
-VIC,Aboriginal and Torres Strait Islander,Total,2016,865
-QLD,Aboriginal and Torres Strait Islander,Male,2016,2934
-QLD,Aboriginal and Torres Strait Islander,Female,2016,499
-QLD,Aboriginal and Torres Strait Islander,Total,2016,3433
-SA,Aboriginal and Torres Strait Islander,Male,2016,1011
-SA,Aboriginal and Torres Strait Islander,Female,2016,179
-SA,Aboriginal and Torres Strait Islander,Total,2016,1190
-WA,Aboriginal and Torres Strait Islander,Male,2016,2459
-WA,Aboriginal and Torres Strait Islander,Female,2016,672
-WA,Aboriginal and Torres Strait Islander,Total,2016,3131
-TAS,Aboriginal and Torres Strait Islander,Male,2016,188
-TAS,Aboriginal and Torres Strait Islander,Female,2016,37
-TAS,Aboriginal and Torres Strait Islander,Total,2016,225
-NT,Aboriginal and Torres Strait Islander,Male,2016,2332
-NT,Aboriginal and Torres Strait Islander,Female,2016,315
-NT,Aboriginal and Torres Strait Islander,Total,2016,2647
-ACT,Aboriginal and Torres Strait Islander,Male,2016,86
-ACT,Aboriginal and Torres Strait Islander,Female,2016,26
-ACT,Aboriginal and Torres Strait Islander,Total,2016,112
-AUSTRALIA,Aboriginal and Torres Strait Islander,Male,2016,12943
-AUSTRALIA,Aboriginal and Torres Strait Islander,Female,2016,2625
-AUSTRALIA,Aboriginal and Torres Strait Islander,Total,2016,15568
+NSW,Indigenous,Male,2016,3215
+NSW,Indigenous,Female,2016,750
+NSW,Indigenous,Total,2016,3965
+VIC,Indigenous,Male,2016,718
+VIC,Indigenous,Female,2016,147
+VIC,Indigenous,Total,2016,865
+QLD,Indigenous,Male,2016,2934
+QLD,Indigenous,Female,2016,499
+QLD,Indigenous,Total,2016,3433
+SA,Indigenous,Male,2016,1011
+SA,Indigenous,Female,2016,179
+SA,Indigenous,Total,2016,1190
+WA,Indigenous,Male,2016,2459
+WA,Indigenous,Female,2016,672
+WA,Indigenous,Total,2016,3131
+TAS,Indigenous,Male,2016,188
+TAS,Indigenous,Female,2016,37
+TAS,Indigenous,Total,2016,225
+NT,Indigenous,Male,2016,2332
+NT,Indigenous,Female,2016,315
+NT,Indigenous,Total,2016,2647
+ACT,Indigenous,Male,2016,86
+ACT,Indigenous,Female,2016,26
+ACT,Indigenous,Total,2016,112
+AUSTRALIA,Indigenous,Male,2016,12943
+AUSTRALIA,Indigenous,Female,2016,2625
+AUSTRALIA,Indigenous,Total,2016,15568
 NSW,Non-Indigenous,Male,2016,8714
 NSW,Non-Indigenous,Female,2016,1121
 NSW,Non-Indigenous,Total,2016,9835
@@ -53,60 +53,60 @@ ACT,Non-Indigenous,Total,2016,471
 AUSTRALIA,Non-Indigenous,Male,2016,29240
 AUSTRALIA,Non-Indigenous,Female,2016,3870
 AUSTRALIA,Non-Indigenous,Total,2016,33110
-NSW,Both,Male,2016,11983
-NSW,Both,Female,2016,1889
-NSW,Both,Total,2016,13872
-VIC,Both,Male,2016,7076
-VIC,Both,Female,2016,1051
-VIC,Both,Total,2016,8127
-QLD,Both,Male,2016,8740
-QLD,Both,Female,2016,1323
-QLD,Both,Total,2016,10063
-SA,Both,Male,2016,4230
-SA,Both,Female,2016,558
-SA,Both,Total,2016,4788
-WA,Both,Male,2016,6494
-WA,Both,Female,2016,1228
-WA,Both,Total,2016,7722
-TAS,Both,Male,2016,1036
-TAS,Both,Female,2016,169
-TAS,Both,Total,2016,1205
-NT,Both,Male,2016,2713
-NT,Both,Female,2016,377
-NT,Both,Total,2016,3090
-ACT,Both,Male,2016,520
-ACT,Both,Female,2016,85
-ACT,Both,Total,2016,605
-AUSTRALIA,Both,Male,2016,42792
-AUSTRALIA,Both,Female,2016,6680
-AUSTRALIA,Both,Total,2016,49472
-NSW,Aboriginal and Torres Strait Islander,Male,2017,4514
-NSW,Aboriginal and Torres Strait Islander,Female,2017,1066
-NSW,Aboriginal and Torres Strait Islander,Total,2017,5580
-VIC,Aboriginal and Torres Strait Islander,Male,2017,943
-VIC,Aboriginal and Torres Strait Islander,Female,2017,247
-VIC,Aboriginal and Torres Strait Islander,Total,2017,1190
-QLD,Aboriginal and Torres Strait Islander,Male,2017,3769
-QLD,Aboriginal and Torres Strait Islander,Female,2017,665
-QLD,Aboriginal and Torres Strait Islander,Total,2017,4434
-SA,Aboriginal and Torres Strait Islander,Male,2017,1281
-SA,Aboriginal and Torres Strait Islander,Female,2017,249
-SA,Aboriginal and Torres Strait Islander,Total,2017,1530
-WA,Aboriginal and Torres Strait Islander,Male,2017,3429
-WA,Aboriginal and Torres Strait Islander,Female,2017,950
-WA,Aboriginal and Torres Strait Islander,Total,2017,4379
-TAS,Aboriginal and Torres Strait Islander,Male,2017,287
-TAS,Aboriginal and Torres Strait Islander,Female,2017,62
-TAS,Aboriginal and Torres Strait Islander,Total,2017,349
-NT,Aboriginal and Torres Strait Islander,Male,2017,3336
-NT,Aboriginal and Torres Strait Islander,Female,2017,493
-NT,Aboriginal and Torres Strait Islander,Total,2017,3829
-ACT,Aboriginal and Torres Strait Islander,Male,2017,132
-ACT,Aboriginal and Torres Strait Islander,Female,2017,45
-ACT,Aboriginal and Torres Strait Islander,Total,2017,177
-AUSTRALIA,Aboriginal and Torres Strait Islander,Male,2017,17691
-AUSTRALIA,Aboriginal and Torres Strait Islander,Female,2017,3777
-AUSTRALIA,Aboriginal and Torres Strait Islander,Total,2017,21468
+NSW,Australian,Male,2016,11983
+NSW,Australian,Female,2016,1889
+NSW,Australian,Total,2016,13872
+VIC,Australian,Male,2016,7076
+VIC,Australian,Female,2016,1051
+VIC,Australian,Total,2016,8127
+QLD,Australian,Male,2016,8740
+QLD,Australian,Female,2016,1323
+QLD,Australian,Total,2016,10063
+SA,Australian,Male,2016,4230
+SA,Australian,Female,2016,558
+SA,Australian,Total,2016,4788
+WA,Australian,Male,2016,6494
+WA,Australian,Female,2016,1228
+WA,Australian,Total,2016,7722
+TAS,Australian,Male,2016,1036
+TAS,Australian,Female,2016,169
+TAS,Australian,Total,2016,1205
+NT,Australian,Male,2016,2713
+NT,Australian,Female,2016,377
+NT,Australian,Total,2016,3090
+ACT,Australian,Male,2016,520
+ACT,Australian,Female,2016,85
+ACT,Australian,Total,2016,605
+AUSTRALIA,Australian,Male,2016,42792
+AUSTRALIA,Australian,Female,2016,6680
+AUSTRALIA,Australian,Total,2016,49472
+NSW,Indigenous,Male,2017,4514
+NSW,Indigenous,Female,2017,1066
+NSW,Indigenous,Total,2017,5580
+VIC,Indigenous,Male,2017,943
+VIC,Indigenous,Female,2017,247
+VIC,Indigenous,Total,2017,1190
+QLD,Indigenous,Male,2017,3769
+QLD,Indigenous,Female,2017,665
+QLD,Indigenous,Total,2017,4434
+SA,Indigenous,Male,2017,1281
+SA,Indigenous,Female,2017,249
+SA,Indigenous,Total,2017,1530
+WA,Indigenous,Male,2017,3429
+WA,Indigenous,Female,2017,950
+WA,Indigenous,Total,2017,4379
+TAS,Indigenous,Male,2017,287
+TAS,Indigenous,Female,2017,62
+TAS,Indigenous,Total,2017,349
+NT,Indigenous,Male,2017,3336
+NT,Indigenous,Female,2017,493
+NT,Indigenous,Total,2017,3829
+ACT,Indigenous,Male,2017,132
+ACT,Indigenous,Female,2017,45
+ACT,Indigenous,Total,2017,177
+AUSTRALIA,Indigenous,Male,2017,17691
+AUSTRALIA,Indigenous,Female,2017,3777
+AUSTRALIA,Indigenous,Total,2017,21468
 NSW,Non-Indigenous,Male,2017,11284
 NSW,Non-Indigenous,Female,2017,1627
 NSW,Non-Indigenous,Total,2017,12911
@@ -134,60 +134,60 @@ ACT,Non-Indigenous,Total,2017,705
 AUSTRALIA,Non-Indigenous,Male,2017,37153
 AUSTRALIA,Non-Indigenous,Female,2017,5430
 AUSTRALIA,Non-Indigenous,Total,2017,42583
-NSW,Both,Male,2017,15903
-NSW,Both,Female,2017,2706
-NSW,Both,Total,2017,18609
-VIC,Both,Male,2017,9018
-VIC,Both,Female,2017,1513
-VIC,Both,Total,2017,10531
-QLD,Both,Male,2017,11137
-QLD,Both,Female,2017,1689
-QLD,Both,Total,2017,12826
-SA,Both,Male,2017,5013
-SA,Both,Female,2017,699
-SA,Both,Total,2017,5712
-WA,Both,Male,2017,8522
-WA,Both,Female,2017,1816
-WA,Both,Total,2017,10338
-TAS,Both,Male,2017,1425
-TAS,Both,Female,2017,240
-TAS,Both,Total,2017,1665
-NT,Both,Male,2017,3863
-NT,Both,Female,2017,565
-NT,Both,Total,2017,4428
-ACT,Both,Male,2017,755
-ACT,Both,Female,2017,160
-ACT,Both,Total,2017,916
-AUSTRALIA,Both,Male,2017,55636
-AUSTRALIA,Both,Female,2017,9388
-AUSTRALIA,Both,Total,2017,65025
-NSW,Aboriginal and Torres Strait Islander,Male,2018,4703
-NSW,Aboriginal and Torres Strait Islander,Female,2018,1066
-NSW,Aboriginal and Torres Strait Islander,Total,2018,5769
-VIC,Aboriginal and Torres Strait Islander,Male,2018,1206
-VIC,Aboriginal and Torres Strait Islander,Female,2018,300
-VIC,Aboriginal and Torres Strait Islander,Total,2018,1506
-QLD,Aboriginal and Torres Strait Islander,Male,2018,3909
-QLD,Aboriginal and Torres Strait Islander,Female,2018,713
-QLD,Aboriginal and Torres Strait Islander,Total,2018,4622
-SA,Aboriginal and Torres Strait Islander,Male,2018,1356
-SA,Aboriginal and Torres Strait Islander,Female,2018,249
-SA,Aboriginal and Torres Strait Islander,Total,2018,1605
-WA,Aboriginal and Torres Strait Islander,Male,2018,3408
-WA,Aboriginal and Torres Strait Islander,Female,2018,934
-WA,Aboriginal and Torres Strait Islander,Total,2018,4342
-TAS,Aboriginal and Torres Strait Islander,Male,2018,308
-TAS,Aboriginal and Torres Strait Islander,Female,2018,47
-TAS,Aboriginal and Torres Strait Islander,Total,2018,355
-NT,Aboriginal and Torres Strait Islander,Male,2018,3315
-NT,Aboriginal and Torres Strait Islander,Female,2018,455
-NT,Aboriginal and Torres Strait Islander,Total,2018,3770
-ACT,Aboriginal and Torres Strait Islander,Male,2018,137
-ACT,Aboriginal and Torres Strait Islander,Female,2018,53
-ACT,Aboriginal and Torres Strait Islander,Total,2018,190
-AUSTRALIA,Aboriginal and Torres Strait Islander,Male,2018,18342
-AUSTRALIA,Aboriginal and Torres Strait Islander,Female,2018,3817
-AUSTRALIA,Aboriginal and Torres Strait Islander,Total,2018,22159
+NSW,Australian,Male,2017,15903
+NSW,Australian,Female,2017,2706
+NSW,Australian,Total,2017,18609
+VIC,Australian,Male,2017,9018
+VIC,Australian,Female,2017,1513
+VIC,Australian,Total,2017,10531
+QLD,Australian,Male,2017,11137
+QLD,Australian,Female,2017,1689
+QLD,Australian,Total,2017,12826
+SA,Australian,Male,2017,5013
+SA,Australian,Female,2017,699
+SA,Australian,Total,2017,5712
+WA,Australian,Male,2017,8522
+WA,Australian,Female,2017,1816
+WA,Australian,Total,2017,10338
+TAS,Australian,Male,2017,1425
+TAS,Australian,Female,2017,240
+TAS,Australian,Total,2017,1665
+NT,Australian,Male,2017,3863
+NT,Australian,Female,2017,565
+NT,Australian,Total,2017,4428
+ACT,Australian,Male,2017,755
+ACT,Australian,Female,2017,160
+ACT,Australian,Total,2017,916
+AUSTRALIA,Australian,Male,2017,55636
+AUSTRALIA,Australian,Female,2017,9388
+AUSTRALIA,Australian,Total,2017,65025
+NSW,Indigenous,Male,2018,4703
+NSW,Indigenous,Female,2018,1066
+NSW,Indigenous,Total,2018,5769
+VIC,Indigenous,Male,2018,1206
+VIC,Indigenous,Female,2018,300
+VIC,Indigenous,Total,2018,1506
+QLD,Indigenous,Male,2018,3909
+QLD,Indigenous,Female,2018,713
+QLD,Indigenous,Total,2018,4622
+SA,Indigenous,Male,2018,1356
+SA,Indigenous,Female,2018,249
+SA,Indigenous,Total,2018,1605
+WA,Indigenous,Male,2018,3408
+WA,Indigenous,Female,2018,934
+WA,Indigenous,Total,2018,4342
+TAS,Indigenous,Male,2018,308
+TAS,Indigenous,Female,2018,47
+TAS,Indigenous,Total,2018,355
+NT,Indigenous,Male,2018,3315
+NT,Indigenous,Female,2018,455
+NT,Indigenous,Total,2018,3770
+ACT,Indigenous,Male,2018,137
+ACT,Indigenous,Female,2018,53
+ACT,Indigenous,Total,2018,190
+AUSTRALIA,Indigenous,Male,2018,18342
+AUSTRALIA,Indigenous,Female,2018,3817
+AUSTRALIA,Indigenous,Total,2018,22159
 NSW,Non-Indigenous,Male,2018,11578
 NSW,Non-Indigenous,Female,2018,1535
 NSW,Non-Indigenous,Total,2018,13113
@@ -215,60 +215,60 @@ ACT,Non-Indigenous,Total,2018,628
 AUSTRALIA,Non-Indigenous,Male,2018,39008
 AUSTRALIA,Non-Indigenous,Female,2018,5744
 AUSTRALIA,Non-Indigenous,Total,2018,44754
-NSW,Both,Male,2018,16499
-NSW,Both,Female,2018,2641
-NSW,Both,Total,2018,19149
-VIC,Both,Male,2018,10912
-VIC,Both,Female,2018,1758
-VIC,Both,Total,2018,12670
-QLD,Both,Male,2018,11643
-QLD,Both,Female,2018,1902
-QLD,Both,Total,2018,13546
-SA,Both,Male,2018,5021
-SA,Both,Female,2018,744
-SA,Both,Total,2018,5766
-WA,Both,Male,2018,8250
-WA,Both,Female,2018,1780
-WA,Both,Total,2018,10030
-TAS,Both,Male,2018,1577
-TAS,Both,Female,2018,272
-TAS,Both,Total,2018,1849
-NT,Both,Male,2018,3811
-NT,Both,Female,2018,511
-NT,Both,Total,2018,4322
-ACT,Both,Male,2018,711
-ACT,Both,Female,2018,140
-ACT,Both,Total,2018,851
-AUSTRALIA,Both,Male,2018,58424
-AUSTRALIA,Both,Female,2018,9748
-AUSTRALIA,Both,Total,2018,68183
-NSW,Aboriginal and Torres Strait Islander,Male,2019,5200
-NSW,Aboriginal and Torres Strait Islander,Female,2019,1111
-NSW,Aboriginal and Torres Strait Islander,Total,2019,6311
-VIC,Aboriginal and Torres Strait Islander,Male,2019,1379
-VIC,Aboriginal and Torres Strait Islander,Female,2019,327
-VIC,Aboriginal and Torres Strait Islander,Total,2019,1706
-QLD,Aboriginal and Torres Strait Islander,Male,2019,4355
-QLD,Aboriginal and Torres Strait Islander,Female,2019,762
-QLD,Aboriginal and Torres Strait Islander,Total,2019,5117
-SA,Aboriginal and Torres Strait Islander,Male,2019,1402
-SA,Aboriginal and Torres Strait Islander,Female,2019,244
-SA,Aboriginal and Torres Strait Islander,Total,2019,1646
-WA,Aboriginal and Torres Strait Islander,Male,2019,3207
-WA,Aboriginal and Torres Strait Islander,Female,2019,842
-WA,Aboriginal and Torres Strait Islander,Total,2019,4049
-TAS,Aboriginal and Torres Strait Islander,Male,2019,320
-TAS,Aboriginal and Torres Strait Islander,Female,2019,62
-TAS,Aboriginal and Torres Strait Islander,Total,2019,382
-NT,Aboriginal and Torres Strait Islander,Male,2019,2987
-NT,Aboriginal and Torres Strait Islander,Female,2019,401
-NT,Aboriginal and Torres Strait Islander,Total,2019,3388
-ACT,Aboriginal and Torres Strait Islander,Male,2019,144
-ACT,Aboriginal and Torres Strait Islander,Female,2019,42
-ACT,Aboriginal and Torres Strait Islander,Total,2019,186
-AUSTRALIA,Aboriginal and Torres Strait Islander,Male,2019,18994
-AUSTRALIA,Aboriginal and Torres Strait Islander,Female,2019,3791
-AUSTRALIA,Aboriginal and Torres Strait Islander,Total,2019,22785
+NSW,Australian,Male,2018,16499
+NSW,Australian,Female,2018,2641
+NSW,Australian,Total,2018,19149
+VIC,Australian,Male,2018,10912
+VIC,Australian,Female,2018,1758
+VIC,Australian,Total,2018,12670
+QLD,Australian,Male,2018,11643
+QLD,Australian,Female,2018,1902
+QLD,Australian,Total,2018,13546
+SA,Australian,Male,2018,5021
+SA,Australian,Female,2018,744
+SA,Australian,Total,2018,5766
+WA,Australian,Male,2018,8250
+WA,Australian,Female,2018,1780
+WA,Australian,Total,2018,10030
+TAS,Australian,Male,2018,1577
+TAS,Australian,Female,2018,272
+TAS,Australian,Total,2018,1849
+NT,Australian,Male,2018,3811
+NT,Australian,Female,2018,511
+NT,Australian,Total,2018,4322
+ACT,Australian,Male,2018,711
+ACT,Australian,Female,2018,140
+ACT,Australian,Total,2018,851
+AUSTRALIA,Australian,Male,2018,58424
+AUSTRALIA,Australian,Female,2018,9748
+AUSTRALIA,Australian,Total,2018,68183
+NSW,Indigenous,Male,2019,5200
+NSW,Indigenous,Female,2019,1111
+NSW,Indigenous,Total,2019,6311
+VIC,Indigenous,Male,2019,1379
+VIC,Indigenous,Female,2019,327
+VIC,Indigenous,Total,2019,1706
+QLD,Indigenous,Male,2019,4355
+QLD,Indigenous,Female,2019,762
+QLD,Indigenous,Total,2019,5117
+SA,Indigenous,Male,2019,1402
+SA,Indigenous,Female,2019,244
+SA,Indigenous,Total,2019,1646
+WA,Indigenous,Male,2019,3207
+WA,Indigenous,Female,2019,842
+WA,Indigenous,Total,2019,4049
+TAS,Indigenous,Male,2019,320
+TAS,Indigenous,Female,2019,62
+TAS,Indigenous,Total,2019,382
+NT,Indigenous,Male,2019,2987
+NT,Indigenous,Female,2019,401
+NT,Indigenous,Total,2019,3388
+ACT,Indigenous,Male,2019,144
+ACT,Indigenous,Female,2019,42
+ACT,Indigenous,Total,2019,186
+AUSTRALIA,Indigenous,Male,2019,18994
+AUSTRALIA,Indigenous,Female,2019,3791
+AUSTRALIA,Indigenous,Total,2019,22785
 NSW,Non-Indigenous,Male,2019,12002
 NSW,Non-Indigenous,Female,2019,1592
 NSW,Non-Indigenous,Total,2019,13594
@@ -296,60 +296,60 @@ ACT,Non-Indigenous,Total,2019,616
 AUSTRALIA,Non-Indigenous,Male,2019,39633
 AUSTRALIA,Non-Indigenous,Female,2019,5603
 AUSTRALIA,Non-Indigenous,Total,2019,45242
-NSW,Both,Male,2019,17438
-NSW,Both,Female,2019,2734
-NSW,Both,Total,2019,20172
-VIC,Both,Male,2019,11432
-VIC,Both,Female,2019,1766
-VIC,Both,Total,2019,13198
-QLD,Both,Male,2019,11886
-QLD,Both,Female,2019,1859
-QLD,Both,Total,2019,13745
-SA,Both,Male,2019,5033
-SA,Both,Female,2019,634
-SA,Both,Total,2019,5673
-WA,Both,Male,2019,8045
-WA,Both,Female,2019,1666
-WA,Both,Total,2019,9711
-TAS,Both,Male,2019,1608
-TAS,Both,Female,2019,271
-TAS,Both,Total,2019,1879
-NT,Both,Male,2019,3422
-NT,Both,Female,2019,475
-NT,Both,Total,2019,3897
-ACT,Both,Male,2019,687
-ACT,Both,Female,2019,130
-ACT,Both,Total,2019,818
-AUSTRALIA,Both,Male,2019,59551
-AUSTRALIA,Both,Female,2019,9535
-AUSTRALIA,Both,Total,2019,69093
-NSW,Aboriginal and Torres Strait Islander,Male,2020,5035
-NSW,Aboriginal and Torres Strait Islander,Female,2020,976
-NSW,Aboriginal and Torres Strait Islander,Total,2020,6011
-VIC,Aboriginal and Torres Strait Islander,Male,2020,1204
-VIC,Aboriginal and Torres Strait Islander,Female,2020,248
-VIC,Aboriginal and Torres Strait Islander,Total,2020,1452
-QLD,Aboriginal and Torres Strait Islander,Male,2020,4255
-QLD,Aboriginal and Torres Strait Islander,Female,2020,727
-QLD,Aboriginal and Torres Strait Islander,Total,2020,4982
-SA,Aboriginal and Torres Strait Islander,Male,2020,1505
-SA,Aboriginal and Torres Strait Islander,Female,2020,276
-SA,Aboriginal and Torres Strait Islander,Total,2020,1783
-WA,Aboriginal and Torres Strait Islander,Male,2020,2958
-WA,Aboriginal and Torres Strait Islander,Female,2020,705
-WA,Aboriginal and Torres Strait Islander,Total,2020,3663
-TAS,Aboriginal and Torres Strait Islander,Male,2020,286
-TAS,Aboriginal and Torres Strait Islander,Female,2020,49
-TAS,Aboriginal and Torres Strait Islander,Total,2020,335
-NT,Aboriginal and Torres Strait Islander,Male,2020,2937
-NT,Aboriginal and Torres Strait Islander,Female,2020,348
-NT,Aboriginal and Torres Strait Islander,Total,2020,3285
-ACT,Aboriginal and Torres Strait Islander,Male,2020,147
-ACT,Aboriginal and Torres Strait Islander,Female,2020,59
-ACT,Aboriginal and Torres Strait Islander,Total,2020,206
-AUSTRALIA,Aboriginal and Torres Strait Islander,Male,2020,18327
-AUSTRALIA,Aboriginal and Torres Strait Islander,Female,2020,3388
-AUSTRALIA,Aboriginal and Torres Strait Islander,Total,2020,21717
+NSW,Australian,Male,2019,17438
+NSW,Australian,Female,2019,2734
+NSW,Australian,Total,2019,20172
+VIC,Australian,Male,2019,11432
+VIC,Australian,Female,2019,1766
+VIC,Australian,Total,2019,13198
+QLD,Australian,Male,2019,11886
+QLD,Australian,Female,2019,1859
+QLD,Australian,Total,2019,13745
+SA,Australian,Male,2019,5033
+SA,Australian,Female,2019,634
+SA,Australian,Total,2019,5673
+WA,Australian,Male,2019,8045
+WA,Australian,Female,2019,1666
+WA,Australian,Total,2019,9711
+TAS,Australian,Male,2019,1608
+TAS,Australian,Female,2019,271
+TAS,Australian,Total,2019,1879
+NT,Australian,Male,2019,3422
+NT,Australian,Female,2019,475
+NT,Australian,Total,2019,3897
+ACT,Australian,Male,2019,687
+ACT,Australian,Female,2019,130
+ACT,Australian,Total,2019,818
+AUSTRALIA,Australian,Male,2019,59551
+AUSTRALIA,Australian,Female,2019,9535
+AUSTRALIA,Australian,Total,2019,69093
+NSW,Indigenous,Male,2020,5035
+NSW,Indigenous,Female,2020,976
+NSW,Indigenous,Total,2020,6011
+VIC,Indigenous,Male,2020,1204
+VIC,Indigenous,Female,2020,248
+VIC,Indigenous,Total,2020,1452
+QLD,Indigenous,Male,2020,4255
+QLD,Indigenous,Female,2020,727
+QLD,Indigenous,Total,2020,4982
+SA,Indigenous,Male,2020,1505
+SA,Indigenous,Female,2020,276
+SA,Indigenous,Total,2020,1783
+WA,Indigenous,Male,2020,2958
+WA,Indigenous,Female,2020,705
+WA,Indigenous,Total,2020,3663
+TAS,Indigenous,Male,2020,286
+TAS,Indigenous,Female,2020,49
+TAS,Indigenous,Total,2020,335
+NT,Indigenous,Male,2020,2937
+NT,Indigenous,Female,2020,348
+NT,Indigenous,Total,2020,3285
+ACT,Indigenous,Male,2020,147
+ACT,Indigenous,Female,2020,59
+ACT,Indigenous,Total,2020,206
+AUSTRALIA,Indigenous,Male,2020,18327
+AUSTRALIA,Indigenous,Female,2020,3388
+AUSTRALIA,Indigenous,Total,2020,21717
 NSW,Non-Indigenous,Male,2020,11497
 NSW,Non-Indigenous,Female,2020,1363
 NSW,Non-Indigenous,Total,2020,12860
@@ -377,60 +377,60 @@ ACT,Non-Indigenous,Total,2020,642
 AUSTRALIA,Non-Indigenous,Male,2020,37049
 AUSTRALIA,Non-Indigenous,Female,2020,4706
 AUSTRALIA,Non-Indigenous,Total,2020,41757
-NSW,Both,Male,2020,16646
-NSW,Both,Female,2020,2355
-NSW,Both,Total,2020,19001
-VIC,Both,Male,2020,10579
-VIC,Both,Female,2020,1407
-VIC,Both,Total,2020,11986
-QLD,Both,Male,2020,11206
-QLD,Both,Female,2020,1641
-QLD,Both,Total,2020,12847
-SA,Both,Male,2020,5101
-SA,Both,Female,2020,741
-SA,Both,Total,2020,5846
-WA,Both,Male,2020,7228
-WA,Both,Female,2020,1375
-WA,Both,Total,2020,8603
-TAS,Both,Male,2020,1389
-TAS,Both,Female,2020,228
-TAS,Both,Total,2020,1617
-NT,Both,Male,2020,3288
-NT,Both,Female,2020,410
-NT,Both,Total,2020,3698
-ACT,Both,Male,2020,736
-ACT,Both,Female,2020,129
-ACT,Both,Total,2020,865
-AUSTRALIA,Both,Male,2020,56173
-AUSTRALIA,Both,Female,2020,8286
-AUSTRALIA,Both,Total,2020,64463
-NSW,Aboriginal and Torres Strait Islander,Male,2021,4908
-NSW,Aboriginal and Torres Strait Islander,Female,2021,880
-NSW,Aboriginal and Torres Strait Islander,Total,2021,5788
-VIC,Aboriginal and Torres Strait Islander,Male,2021,1226
-VIC,Aboriginal and Torres Strait Islander,Female,2021,226
-VIC,Aboriginal and Torres Strait Islander,Total,2021,1452
-QLD,Aboriginal and Torres Strait Islander,Male,2021,4700
-QLD,Aboriginal and Torres Strait Islander,Female,2021,864
-QLD,Aboriginal and Torres Strait Islander,Total,2021,5564
-SA,Aboriginal and Torres Strait Islander,Male,2021,1349
-SA,Aboriginal and Torres Strait Islander,Female,2021,252
-SA,Aboriginal and Torres Strait Islander,Total,2021,1601
-WA,Aboriginal and Torres Strait Islander,Male,2021,2920
-WA,Aboriginal and Torres Strait Islander,Female,2021,628
-WA,Aboriginal and Torres Strait Islander,Total,2021,3548
-TAS,Aboriginal and Torres Strait Islander,Male,2021,322
-TAS,Aboriginal and Torres Strait Islander,Female,2021,62
-TAS,Aboriginal and Torres Strait Islander,Total,2021,384
-NT,Aboriginal and Torres Strait Islander,Male,2021,3049
-NT,Aboriginal and Torres Strait Islander,Female,2021,377
-NT,Aboriginal and Torres Strait Islander,Total,2021,3426
-ACT,Aboriginal and Torres Strait Islander,Male,2021,135
-ACT,Aboriginal and Torres Strait Islander,Female,2021,45
-ACT,Aboriginal and Torres Strait Islander,Total,2021,180
-AUSTRALIA,Aboriginal and Torres Strait Islander,Male,2021,18609
-AUSTRALIA,Aboriginal and Torres Strait Islander,Female,2021,3334
-AUSTRALIA,Aboriginal and Torres Strait Islander,Total,2021,21943
+NSW,Australian,Male,2020,16646
+NSW,Australian,Female,2020,2355
+NSW,Australian,Total,2020,19001
+VIC,Australian,Male,2020,10579
+VIC,Australian,Female,2020,1407
+VIC,Australian,Total,2020,11986
+QLD,Australian,Male,2020,11206
+QLD,Australian,Female,2020,1641
+QLD,Australian,Total,2020,12847
+SA,Australian,Male,2020,5101
+SA,Australian,Female,2020,741
+SA,Australian,Total,2020,5846
+WA,Australian,Male,2020,7228
+WA,Australian,Female,2020,1375
+WA,Australian,Total,2020,8603
+TAS,Australian,Male,2020,1389
+TAS,Australian,Female,2020,228
+TAS,Australian,Total,2020,1617
+NT,Australian,Male,2020,3288
+NT,Australian,Female,2020,410
+NT,Australian,Total,2020,3698
+ACT,Australian,Male,2020,736
+ACT,Australian,Female,2020,129
+ACT,Australian,Total,2020,865
+AUSTRALIA,Australian,Male,2020,56173
+AUSTRALIA,Australian,Female,2020,8286
+AUSTRALIA,Australian,Total,2020,64463
+NSW,Indigenous,Male,2021,4908
+NSW,Indigenous,Female,2021,880
+NSW,Indigenous,Total,2021,5788
+VIC,Indigenous,Male,2021,1226
+VIC,Indigenous,Female,2021,226
+VIC,Indigenous,Total,2021,1452
+QLD,Indigenous,Male,2021,4700
+QLD,Indigenous,Female,2021,864
+QLD,Indigenous,Total,2021,5564
+SA,Indigenous,Male,2021,1349
+SA,Indigenous,Female,2021,252
+SA,Indigenous,Total,2021,1601
+WA,Indigenous,Male,2021,2920
+WA,Indigenous,Female,2021,628
+WA,Indigenous,Total,2021,3548
+TAS,Indigenous,Male,2021,322
+TAS,Indigenous,Female,2021,62
+TAS,Indigenous,Total,2021,384
+NT,Indigenous,Male,2021,3049
+NT,Indigenous,Female,2021,377
+NT,Indigenous,Total,2021,3426
+ACT,Indigenous,Male,2021,135
+ACT,Indigenous,Female,2021,45
+ACT,Indigenous,Total,2021,180
+AUSTRALIA,Indigenous,Male,2021,18609
+AUSTRALIA,Indigenous,Female,2021,3334
+AUSTRALIA,Indigenous,Total,2021,21943
 NSW,Non-Indigenous,Male,2021,10890
 NSW,Non-Indigenous,Female,2021,1236
 NSW,Non-Indigenous,Total,2021,12126
@@ -458,60 +458,60 @@ ACT,Non-Indigenous,Total,2021,541
 AUSTRALIA,Non-Indigenous,Male,2021,35222
 AUSTRALIA,Non-Indigenous,Female,2021,4450
 AUSTRALIA,Non-Indigenous,Total,2021,39675
-NSW,Both,Male,2021,15972
-NSW,Both,Female,2021,2140
-NSW,Both,Total,2021,18112
-VIC,Both,Male,2021,9907
-VIC,Both,Female,2021,1287
-VIC,Both,Total,2021,11194
-QLD,Both,Male,2021,11914
-QLD,Both,Female,2021,1842
-QLD,Both,Total,2021,13756
-SA,Both,Male,2021,4880
-SA,Both,Female,2021,714
-SA,Both,Total,2021,5597
-WA,Both,Male,2021,6838
-WA,Both,Female,2021,1214
-WA,Both,Total,2021,8052
-TAS,Both,Male,2021,1353
-TAS,Both,Female,2021,258
-TAS,Both,Total,2021,1611
-NT,Both,Male,2021,3395
-NT,Both,Female,2021,422
-NT,Both,Total,2021,3817
-ACT,Both,Male,2021,621
-ACT,Both,Female,2021,115
-ACT,Both,Total,2021,736
-AUSTRALIA,Both,Male,2021,54880
-AUSTRALIA,Both,Female,2021,7992
-AUSTRALIA,Both,Total,2021,62875
-NSW,Aboriginal and Torres Strait Islander,Male,2022,5400
-NSW,Aboriginal and Torres Strait Islander,Female,2022,946
-NSW,Aboriginal and Torres Strait Islander,Total,2022,6346
-VIC,Aboriginal and Torres Strait Islander,Male,2022,1228
-VIC,Aboriginal and Torres Strait Islander,Female,2022,189
-VIC,Aboriginal and Torres Strait Islander,Total,2022,1417
-QLD,Aboriginal and Torres Strait Islander,Male,2022,4929
-QLD,Aboriginal and Torres Strait Islander,Female,2022,930
-QLD,Aboriginal and Torres Strait Islander,Total,2022,5859
-SA,Aboriginal and Torres Strait Islander,Male,2022,1439
-SA,Aboriginal and Torres Strait Islander,Female,2022,301
-SA,Aboriginal and Torres Strait Islander,Total,2022,1740
-WA,Aboriginal and Torres Strait Islander,Male,2022,3168
-WA,Aboriginal and Torres Strait Islander,Female,2022,744
-WA,Aboriginal and Torres Strait Islander,Total,2022,3912
-TAS,Aboriginal and Torres Strait Islander,Male,2022,321
-TAS,Aboriginal and Torres Strait Islander,Female,2022,43
-TAS,Aboriginal and Torres Strait Islander,Total,2022,364
-NT,Aboriginal and Torres Strait Islander,Male,2022,1525
-NT,Aboriginal and Torres Strait Islander,Female,2022,172
-NT,Aboriginal and Torres Strait Islander,Total,2022,3579
-ACT,Aboriginal and Torres Strait Islander,Male,2022,83
-ACT,Aboriginal and Torres Strait Islander,Female,2022,24
-ACT,Aboriginal and Torres Strait Islander,Total,2022,219
-AUSTRALIA,Aboriginal and Torres Strait Islander,Male,2022,19839
-AUSTRALIA,Aboriginal and Torres Strait Islander,Female,2022,3597
-AUSTRALIA,Aboriginal and Torres Strait Islander,Total,2022,23436
+NSW,Australian,Male,2021,15972
+NSW,Australian,Female,2021,2140
+NSW,Australian,Total,2021,18112
+VIC,Australian,Male,2021,9907
+VIC,Australian,Female,2021,1287
+VIC,Australian,Total,2021,11194
+QLD,Australian,Male,2021,11914
+QLD,Australian,Female,2021,1842
+QLD,Australian,Total,2021,13756
+SA,Australian,Male,2021,4880
+SA,Australian,Female,2021,714
+SA,Australian,Total,2021,5597
+WA,Australian,Male,2021,6838
+WA,Australian,Female,2021,1214
+WA,Australian,Total,2021,8052
+TAS,Australian,Male,2021,1353
+TAS,Australian,Female,2021,258
+TAS,Australian,Total,2021,1611
+NT,Australian,Male,2021,3395
+NT,Australian,Female,2021,422
+NT,Australian,Total,2021,3817
+ACT,Australian,Male,2021,621
+ACT,Australian,Female,2021,115
+ACT,Australian,Total,2021,736
+AUSTRALIA,Australian,Male,2021,54880
+AUSTRALIA,Australian,Female,2021,7992
+AUSTRALIA,Australian,Total,2021,62875
+NSW,Indigenous,Male,2022,5400
+NSW,Indigenous,Female,2022,946
+NSW,Indigenous,Total,2022,6346
+VIC,Indigenous,Male,2022,1228
+VIC,Indigenous,Female,2022,189
+VIC,Indigenous,Total,2022,1417
+QLD,Indigenous,Male,2022,4929
+QLD,Indigenous,Female,2022,930
+QLD,Indigenous,Total,2022,5859
+SA,Indigenous,Male,2022,1439
+SA,Indigenous,Female,2022,301
+SA,Indigenous,Total,2022,1740
+WA,Indigenous,Male,2022,3168
+WA,Indigenous,Female,2022,744
+WA,Indigenous,Total,2022,3912
+TAS,Indigenous,Male,2022,321
+TAS,Indigenous,Female,2022,43
+TAS,Indigenous,Total,2022,364
+NT,Indigenous,Male,2022,1525
+NT,Indigenous,Female,2022,172
+NT,Indigenous,Total,2022,3579
+ACT,Indigenous,Male,2022,83
+ACT,Indigenous,Female,2022,24
+ACT,Indigenous,Total,2022,219
+AUSTRALIA,Indigenous,Male,2022,19839
+AUSTRALIA,Indigenous,Female,2022,3597
+AUSTRALIA,Indigenous,Total,2022,23436
 NSW,Non-Indigenous,Male,2022,10915
 NSW,Non-Indigenous,Female,2022,1217
 NSW,Non-Indigenous,Total,2022,12132
@@ -539,60 +539,60 @@ ACT,Non-Indigenous,Total,2022,569
 AUSTRALIA,Non-Indigenous,Male,2022,34967
 AUSTRALIA,Non-Indigenous,Female,2022,4162
 AUSTRALIA,Non-Indigenous,Total,2022,39131
-NSW,Both,Male,2022,16485
-NSW,Both,Female,2022,2185
-NSW,Both,Total,2022,18670
-VIC,Both,Male,2022,9681
-VIC,Both,Female,2022,1193
-VIC,Both,Total,2022,10874
-QLD,Both,Male,2022,12633
-QLD,Both,Female,2022,1895
-QLD,Both,Total,2022,14528
-SA,Both,Male,2022,4596
-SA,Both,Female,2022,696
-SA,Both,Total,2022,5294
-WA,Both,Male,2022,6849
-WA,Both,Female,2022,1259
-WA,Both,Total,2022,8109
-TAS,Both,Male,2022,1356
-TAS,Both,Female,2022,210
-TAS,Both,Total,2022,1567
-NT,Both,Male,2022,3441
-NT,Both,Female,2022,423
-NT,Both,Total,2022,3864
-ACT,Both,Male,2022,731
-ACT,Both,Female,2022,98
-ACT,Both,Total,2022,829
-AUSTRALIA,Both,Male,2022,55772
-AUSTRALIA,Both,Female,2022,7959
-AUSTRALIA,Both,Total,2022,63735
-NSW,Aboriginal and Torres Strait Islander,Male,2023,5832
-NSW,Aboriginal and Torres Strait Islander,Female,2023,1127
-NSW,Aboriginal and Torres Strait Islander,Total,2023,6959
-VIC,Aboriginal and Torres Strait Islander,Male,2023,1311
-VIC,Aboriginal and Torres Strait Islander,Female,2023,140
-VIC,Aboriginal and Torres Strait Islander,Total,2023,1451
-QLD,Aboriginal and Torres Strait Islander,Male,2023,5510
-QLD,Aboriginal and Torres Strait Islander,Female,2023,1084
-QLD,Aboriginal and Torres Strait Islander,Total,2023,6594
-SA,Aboriginal and Torres Strait Islander,Male,2023,1467
-SA,Aboriginal and Torres Strait Islander,Female,2023,336
-SA,Aboriginal and Torres Strait Islander,Total,2023,1803
-WA,Aboriginal and Torres Strait Islander,Male,2023,3989
-WA,Aboriginal and Torres Strait Islander,Female,2023,945
-WA,Aboriginal and Torres Strait Islander,Total,2023,4934
-TAS,Aboriginal and Torres Strait Islander,Male,2023,402
-TAS,Aboriginal and Torres Strait Islander,Female,2023,69
-TAS,Aboriginal and Torres Strait Islander,Total,2023,471
-NT,Aboriginal and Torres Strait Islander,Male,2023,3518
-NT,Aboriginal and Torres Strait Islander,Female,2023,486
-NT,Aboriginal and Torres Strait Islander,Total,2023,4004
-ACT,Aboriginal and Torres Strait Islander,Male,2023,161
-ACT,Aboriginal and Torres Strait Islander,Female,2023,40
-ACT,Aboriginal and Torres Strait Islander,Total,2023,202
-AUSTRALIA,Aboriginal and Torres Strait Islander,Male,2023,22190
-AUSTRALIA,Aboriginal and Torres Strait Islander,Female,2023,4227
-AUSTRALIA,Aboriginal and Torres Strait Islander,Total,2023,26418
+NSW,Australian,Male,2022,16485
+NSW,Australian,Female,2022,2185
+NSW,Australian,Total,2022,18670
+VIC,Australian,Male,2022,9681
+VIC,Australian,Female,2022,1193
+VIC,Australian,Total,2022,10874
+QLD,Australian,Male,2022,12633
+QLD,Australian,Female,2022,1895
+QLD,Australian,Total,2022,14528
+SA,Australian,Male,2022,4596
+SA,Australian,Female,2022,696
+SA,Australian,Total,2022,5294
+WA,Australian,Male,2022,6849
+WA,Australian,Female,2022,1259
+WA,Australian,Total,2022,8109
+TAS,Australian,Male,2022,1356
+TAS,Australian,Female,2022,210
+TAS,Australian,Total,2022,1567
+NT,Australian,Male,2022,3441
+NT,Australian,Female,2022,423
+NT,Australian,Total,2022,3864
+ACT,Australian,Male,2022,731
+ACT,Australian,Female,2022,98
+ACT,Australian,Total,2022,829
+AUSTRALIA,Australian,Male,2022,55772
+AUSTRALIA,Australian,Female,2022,7959
+AUSTRALIA,Australian,Total,2022,63735
+NSW,Indigenous,Male,2023,5832
+NSW,Indigenous,Female,2023,1127
+NSW,Indigenous,Total,2023,6959
+VIC,Indigenous,Male,2023,1311
+VIC,Indigenous,Female,2023,140
+VIC,Indigenous,Total,2023,1451
+QLD,Indigenous,Male,2023,5510
+QLD,Indigenous,Female,2023,1084
+QLD,Indigenous,Total,2023,6594
+SA,Indigenous,Male,2023,1467
+SA,Indigenous,Female,2023,336
+SA,Indigenous,Total,2023,1803
+WA,Indigenous,Male,2023,3989
+WA,Indigenous,Female,2023,945
+WA,Indigenous,Total,2023,4934
+TAS,Indigenous,Male,2023,402
+TAS,Indigenous,Female,2023,69
+TAS,Indigenous,Total,2023,471
+NT,Indigenous,Male,2023,3518
+NT,Indigenous,Female,2023,486
+NT,Indigenous,Total,2023,4004
+ACT,Indigenous,Male,2023,161
+ACT,Indigenous,Female,2023,40
+ACT,Indigenous,Total,2023,202
+AUSTRALIA,Indigenous,Male,2023,22190
+AUSTRALIA,Indigenous,Female,2023,4227
+AUSTRALIA,Indigenous,Total,2023,26418
 NSW,Non-Indigenous,Male,2023,11171
 NSW,Non-Indigenous,Female,2023,1213
 NSW,Non-Indigenous,Total,2023,12385
@@ -620,60 +620,60 @@ ACT,Non-Indigenous,Total,2023,517
 AUSTRALIA,Non-Indigenous,Male,2023,36272
 AUSTRALIA,Non-Indigenous,Female,2023,4326
 AUSTRALIA,Non-Indigenous,Total,2023,40599
-NSW,Both,Male,2023,17447
-NSW,Both,Female,2023,2407
-NSW,Both,Total,2023,19855
-VIC,Both,Male,2023,8768
-VIC,Both,Female,2023,961
-VIC,Both,Total,2023,9729
-QLD,Both,Male,2023,14073
-QLD,Both,Female,2023,2194
-QLD,Both,Total,2023,16267
-SA,Both,Male,2023,4804
-SA,Both,Female,2023,727
-SA,Both,Total,2023,5531
-WA,Both,Male,2023,8309
-WA,Both,Female,2023,1580
-WA,Both,Total,2023,9889
-TAS,Both,Male,2023,1635
-TAS,Both,Female,2023,238
-TAS,Both,Total,2023,1873
-NT,Both,Male,2023,3856
-NT,Both,Female,2023,519
-NT,Both,Total,2023,4375
-ACT,Both,Male,2023,673
-ACT,Both,Female,2023,107
-ACT,Both,Total,2023,781
-AUSTRALIA,Both,Male,2023,59565
-AUSTRALIA,Both,Female,2023,8733
-AUSTRALIA,Both,Total,2023,68300
-NSW,Aboriginal and Torres Strait Islander,Male,2024,3322
-NSW,Aboriginal and Torres Strait Islander,Female,2024,682
-NSW,Aboriginal and Torres Strait Islander,Total,2024,4004
-VIC,Aboriginal and Torres Strait Islander,Male,2024,477
-VIC,Aboriginal and Torres Strait Islander,Female,2024,64
-VIC,Aboriginal and Torres Strait Islander,Total,2024,541
-QLD,Aboriginal and Torres Strait Islander,Male,2024,2930
-QLD,Aboriginal and Torres Strait Islander,Female,2024,641
-QLD,Aboriginal and Torres Strait Islander,Total,2024,3571
-SA,Aboriginal and Torres Strait Islander,Male,2024,845
-SA,Aboriginal and Torres Strait Islander,Female,2024,196
-SA,Aboriginal and Torres Strait Islander,Total,2024,1041
-WA,Aboriginal and Torres Strait Islander,Male,2024,2397
-WA,Aboriginal and Torres Strait Islander,Female,2024,648
-WA,Aboriginal and Torres Strait Islander,Total,2024,3045
-TAS,Aboriginal and Torres Strait Islander,Male,2024,207
-TAS,Aboriginal and Torres Strait Islander,Female,2024,54
-TAS,Aboriginal and Torres Strait Islander,Total,2024,261
-NT,Aboriginal and Torres Strait Islander,Male,2024,1652
-NT,Aboriginal and Torres Strait Islander,Female,2024,258
-NT,Aboriginal and Torres Strait Islander,Total,2024,1910
-ACT,Aboriginal and Torres Strait Islander,Male,2024,110
-ACT,Aboriginal and Torres Strait Islander,Female,2024,15
-ACT,Aboriginal and Torres Strait Islander,Total,2024,125
-AUSTRALIA,Aboriginal and Torres Strait Islander,Male,2024,11940
-AUSTRALIA,Aboriginal and Torres Strait Islander,Female,2024,2558
-AUSTRALIA,Aboriginal and Torres Strait Islander,Total,2024,14498
+NSW,Australian,Male,2023,17447
+NSW,Australian,Female,2023,2407
+NSW,Australian,Total,2023,19855
+VIC,Australian,Male,2023,8768
+VIC,Australian,Female,2023,961
+VIC,Australian,Total,2023,9729
+QLD,Australian,Male,2023,14073
+QLD,Australian,Female,2023,2194
+QLD,Australian,Total,2023,16267
+SA,Australian,Male,2023,4804
+SA,Australian,Female,2023,727
+SA,Australian,Total,2023,5531
+WA,Australian,Male,2023,8309
+WA,Australian,Female,2023,1580
+WA,Australian,Total,2023,9889
+TAS,Australian,Male,2023,1635
+TAS,Australian,Female,2023,238
+TAS,Australian,Total,2023,1873
+NT,Australian,Male,2023,3856
+NT,Australian,Female,2023,519
+NT,Australian,Total,2023,4375
+ACT,Australian,Male,2023,673
+ACT,Australian,Female,2023,107
+ACT,Australian,Total,2023,781
+AUSTRALIA,Australian,Male,2023,59565
+AUSTRALIA,Australian,Female,2023,8733
+AUSTRALIA,Australian,Total,2023,68300
+NSW,Indigenous,Male,2024,3322
+NSW,Indigenous,Female,2024,682
+NSW,Indigenous,Total,2024,4004
+VIC,Indigenous,Male,2024,477
+VIC,Indigenous,Female,2024,64
+VIC,Indigenous,Total,2024,541
+QLD,Indigenous,Male,2024,2930
+QLD,Indigenous,Female,2024,641
+QLD,Indigenous,Total,2024,3571
+SA,Indigenous,Male,2024,845
+SA,Indigenous,Female,2024,196
+SA,Indigenous,Total,2024,1041
+WA,Indigenous,Male,2024,2397
+WA,Indigenous,Female,2024,648
+WA,Indigenous,Total,2024,3045
+TAS,Indigenous,Male,2024,207
+TAS,Indigenous,Female,2024,54
+TAS,Indigenous,Total,2024,261
+NT,Indigenous,Male,2024,1652
+NT,Indigenous,Female,2024,258
+NT,Indigenous,Total,2024,1910
+ACT,Indigenous,Male,2024,110
+ACT,Indigenous,Female,2024,15
+ACT,Indigenous,Total,2024,125
+AUSTRALIA,Indigenous,Male,2024,11940
+AUSTRALIA,Indigenous,Female,2024,2558
+AUSTRALIA,Indigenous,Total,2024,14498
 NSW,Non-Indigenous,Male,2024,6032
 NSW,Non-Indigenous,Female,2024,619
 NSW,Non-Indigenous,Total,2024,6652
@@ -701,30 +701,30 @@ ACT,Non-Indigenous,Total,2024,254
 AUSTRALIA,Non-Indigenous,Male,2024,18446
 AUSTRALIA,Non-Indigenous,Female,2024,2119
 AUSTRALIA,Non-Indigenous,Total,2024,20566
-NSW,Both,Male,2024,9583
-NSW,Both,Female,2024,1348
-NSW,Both,Total,2024,10932
-VIC,Both,Male,2024,3492
-VIC,Both,Female,2024,375
-VIC,Both,Total,2024,3867
-QLD,Both,Male,2024,7166
-QLD,Both,Female,2024,1184
-QLD,Both,Total,2024,8350
-SA,Both,Male,2024,2777
-SA,Both,Female,2024,414
-SA,Both,Total,2024,3191
-WA,Both,Male,2024,4922
-WA,Both,Female,2024,1007
-WA,Both,Total,2024,5929
-TAS,Both,Male,2024,849
-TAS,Both,Female,2024,142
-TAS,Both,Total,2024,991
-NT,Both,Male,2024,1826
-NT,Both,Female,2024,276
-NT,Both,Total,2024,2102
-ACT,Both,Male,2024,363
-ACT,Both,Female,2024,44
-ACT,Both,Total,2024,407
-AUSTRALIA,Both,Male,2024,30978
-AUSTRALIA,Both,Female,2024,4790
-AUSTRALIA,Both,Total,2024,35769
+NSW,Australian,Male,2024,9583
+NSW,Australian,Female,2024,1348
+NSW,Australian,Total,2024,10932
+VIC,Australian,Male,2024,3492
+VIC,Australian,Female,2024,375
+VIC,Australian,Total,2024,3867
+QLD,Australian,Male,2024,7166
+QLD,Australian,Female,2024,1184
+QLD,Australian,Total,2024,8350
+SA,Australian,Male,2024,2777
+SA,Australian,Female,2024,414
+SA,Australian,Total,2024,3191
+WA,Australian,Male,2024,4922
+WA,Australian,Female,2024,1007
+WA,Australian,Total,2024,5929
+TAS,Australian,Male,2024,849
+TAS,Australian,Female,2024,142
+TAS,Australian,Total,2024,991
+NT,Australian,Male,2024,1826
+NT,Australian,Female,2024,276
+NT,Australian,Total,2024,2102
+ACT,Australian,Male,2024,363
+ACT,Australian,Female,2024,44
+ACT,Australian,Total,2024,407
+AUSTRALIA,Australian,Male,2024,30978
+AUSTRALIA,Australian,Female,2024,4790
+AUSTRALIA,Australian,Total,2024,35769
