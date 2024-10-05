@@ -9,20 +9,67 @@
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <title>Data Visualisation II</title>
   
-  <script src="./Data-Visualisation-II.js"></script>
-  
-  <title>Data Visualisation II </title>
+  <script>
+    // Embed the choropleth map
+    var vg_1 = "./Visualisation Codes/HomeworkWeek9.json"; // Ensure the path is correct
+    vegaEmbed("#choropleth_map", vg_1).then(function(result) {
+      console.log("Choropleth map loaded");
+    }).catch(function(err) {
+      console.error("Error loading choropleth map:", err);
+    });
+
+    // Embed the line chart for week 9
+    var vg_2 = "./Visualisation Codes/proportion-indigenous.json"; // Ensure the path is correct
+    vegaEmbed("#line_chart_week9", vg_2).then(function(result) {
+      console.log("Line chart for week 9 loaded");
+    }).catch(function(err) {
+      console.error("Error loading line chart for week 9:", err);
+    });
+
+    // Embed the bar chart for non-indigenous
+    var vg_3 = "./Visualisation Codes/proportion-non-indigenous.json"; // Ensure the path is correct
+    vegaEmbed("#bar_chart_non_indigenous", vg_3).then(function(result) {
+      console.log("Non-Indigenous bar chart loaded");
+    }).catch(function(err) {
+      console.error("Error loading non-indigenous bar chart:", err);
+    });
+
+    // Embed the comparison bar chart
+    var vg_4 = "./Visualisation Codes/comparison.json"; // Ensure the path is correct
+    vegaEmbed("#bar_chart_comparison", vg_4).then(function(result) {
+      console.log("Comparison bar chart loaded");
+    }).catch(function(err) {
+      console.error("Error loading comparison bar chart:", err);
+    });
+
+    // Embed the stacked bar chart
+    var vg_5 = "./Visualisation Codes/male-female.json"; // Ensure the path is correct
+    vegaEmbed("#stacked_bar_chart", vg_5).then(function(result) {
+      console.log("Stacked bar chart loaded");
+    }).catch(function(err) {
+      console.error("Error loading stacked bar chart:", err);
+    });
+
+    // Embed the line chart for week 10
+    var vg_6 = "./docs/HomeworkWeek10.json"; // Ensure the path is correct
+    vegaEmbed("#line_chart_week10", vg_6).then(function(result) {
+      console.log("Line chart for week 10 loaded");
+    }).catch(function(err) {
+      console.error("Error loading line chart for week 10:", err);
+    });
+  </script>
 </head>
   
 <body>
-  <div id="choropleth_map"></div>
-  <div id="line_chart_week9"></div>
-  <div id="bar_chart_non_indigenous"></div>
-  <div id="bar_chart_comparison"></div>
-  <div id="stacked_bar_chart"></div>
-  <div id="line_chart_week10"></div>
-
+  <div id="choropleth_map" style="height: 600px; width: 100%;"></div>
+  <div id="line_chart_week9" style="height: 600px; width: 100%;"></div>
+  <div id="bar_chart_non_indigenous" style="height: 600px; width: 100%;"></div>
+  <div id="bar_chart_comparison" style="height: 600px; width: 100%;"></div>
+  <div id="stacked_bar_chart" style="height: 600px; width: 100%;"></div>
+  <div id="line_chart_week10" style="height: 600px; width: 100%;"></div>
 </body>
   
 </html>
