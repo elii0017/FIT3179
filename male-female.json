@@ -1,0 +1,73 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Proportion of Indigenous to Non-Indigenous by Age Bracket",
+  "height": 400,
+  "width": 200,
+  "data": {
+    "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Male%20Female.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "transform": [
+    {
+      "fold": ["Males (%)", "Females (%)"],
+      "as": ["Gender", "Percentage"]
+    },
+    {
+      "calculate": "if(datum['Age Bracket (Years)'] === brush, 1, 0)",
+      "as": "sort_order"
+    }
+  ],
+  "selection": {
+    "brush": {
+      "type": "single",
+      "fields": ["Age Bracket (Years)"],
+      "bind": "legend"
+    }
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Gender",
+      "type": "nominal",
+      "axis": {
+        "title": ""
+      },
+      "sort": {"field": "sort_order", "order": "ascending"} 
+    },
+    "y": {
+      "field": "Percentage",
+      "type": "quantitative",
+      "stack": "zero",
+      "title": "Percentage (%)",
+      "scale": {
+        "domain": [0, 100]
+      }
+    },
+    "column": {
+      "field": "Period (Year)",
+      "type": "nominal",
+      "spacing": 0.1
+    },
+    "color": {
+      "condition": {
+        "selection": "brush", 
+        "field": "Age Bracket (Years)", 
+        "type": "nominal",
+        "scale": {"scheme": "category10"}
+      },
+      "value": "lightgray" 
+    },
+    "tooltip": [
+      {"field": "Age Bracket (Years)", "type": "nominal", "title": "Age Bracket"},
+      {"field": "Percentage", "type": "quantitative", "title": "Percentage (%)"},
+      {"field": "Gender", "type": "nominal", "title": "Gender"}
+    ]
+  },
+  "config": {
+    "view": {
+      "strokeOpacity": 0
+    }
+  }
+}

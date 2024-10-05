@@ -1,0 +1,81 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 400,
+  "title": "Proportion of Indigenous to Non-Indigenous",
+  "data": {
+    "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/demographic.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "params": [
+    {
+      "name": "yearSelection",
+      "value": 2023,
+      "bind": {
+        "input": "range",
+        "min": 2023,
+        "max": 2024,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum['Period (Year)'] == yearSelection"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "Indigenous (No.)",
+          "as": "Total Indigenous"
+        },
+        {
+          "op": "sum",
+          "field": "Non-Indigenous (No.)",
+          "as": "Total Non-Indigenous"
+        }
+      ],
+      "groupby": []
+    },
+    {
+      "fold": ["Total Indigenous", "Total Non-Indigenous"],
+      "as": ["Demographic", "Count"]
+    },
+    {
+      "calculate": "datum.Count / (datum['Total Indigenous'] + datum['Total Non-Indigenous']) * 100",
+      "as": "Percentage"
+    }
+  ],
+  "mark": "arc",
+  "encoding": {
+    "theta": {
+      "field": "Percentage",
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "Demographic",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Total Indigenous", "Total Non-Indigenous"],
+        "range": ["#1f77b4", "#ff7f0e"] 
+      }
+    },
+    "tooltip": [
+      {"field": "Demographic", "type": "nominal"},
+      {"field": "Count", "type": "quantitative"},
+      {"field": "Percentage", "type": "quantitative", "format": ".2f"}
+    ]
+  },
+  "view": {
+    "stroke": "transparent"
+  },
+  "config": {
+    "view": {
+      "step": 10
+    }
+  }
+}

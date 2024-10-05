@@ -1,0 +1,64 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "height": 400,
+    "title": "Proportion of Non-Indigenous",
+    "data": {
+      "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/demographic.csv",
+      "format": {
+        "type": "csv"
+      }
+    },
+    "params": [
+      {
+        "name": "yearSelection",
+        "value": 2023,
+        "bind": {
+          "input": "range",
+          "min": 2023,
+          "max": 2024,
+          "step": 1,
+          "name": "Year: "
+        }
+      }
+    ],
+    "transform": [
+      {
+        "filter": "datum['Period (Year)'] == yearSelection"
+      },
+      {
+        "filter": "datum['Age Bracket (Years)'] != 'Total'"
+      },
+      {
+        "fold": ["Non-Indigenous %"],
+        "as": ["Demographic", "Percentage"]
+      }
+    ],
+    "mark": "arc",
+    "encoding": {
+      "theta": {
+        "field": "Percentage",
+        "type": "quantitative"
+      },
+      "color": {
+        "field": "Age Bracket (Years)",
+        "type": "nominal",
+        "scale": {
+          "scheme": "dark2" 
+        }
+      },
+      "tooltip": [
+        {"field": "Age Bracket (Years)", "type": "nominal"},
+        {"field": "Percentage", "type": "quantitative", "format": ".2f"}
+      ]
+    },
+    "view": {
+      "stroke": "transparent"
+    },
+    "config": {
+      "view": {
+        "step": 10
+      }
+    }
+  }
+  
