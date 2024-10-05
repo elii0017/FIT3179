@@ -4,7 +4,7 @@
     "height": 400,
     "title": "Proportion of Non-Indigenous",
     "data": {
-      "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/demographic.csv",
+      "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/2023-2024-Demographic.csv",
       "format": {
         "type": "csv"
       }
