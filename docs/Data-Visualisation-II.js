@@ -1,5 +1,5 @@
 // Embed the choropleth map
-var vg_1 = "./HomeworkWeek9.json"; // Adjust path to go up one directory
+var vg_1 = "../docs/HomeworkWeek9.json"; // Adjust path to go up one directory
 vegaEmbed("#choropleth_map", vg_1).then(function(result) {
   // Access the Vega view instance if needed
 }).catch(console.error);
@@ -28,7 +28,7 @@ vegaEmbed("#stacked_bar_chart", vg_5).then(function(result) {
 }).catch(console.error);
 
 // Embed the line chart for week 10
-var vg_6 = "./HomeworkWeek10.json"; // Adjust path to go up one directory
+var vg_6 = "../docs/HomeworkWeek10.json"; // Adjust path to go up one directory
 vegaEmbed("#line_chart_week10", vg_6).then(function(result) {
   // Access the Vega view instance if needed
 }).catch(console.error);
