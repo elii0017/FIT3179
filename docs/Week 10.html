@@ -1,52 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
   
-  <title>Test Visualization</title>
-  <style>
-    #choropleth_map, 
-    #line_chart {
-      width: 800px;
-      height: 400px;
-      margin: 20px 0;
-    }
-  </style>
+  <script src="./Week 10.js"></script>
+  
+  <title>Homework Week 10 Visualisation</title>
 </head>
+  
 <body>
-  <h1>Test Visualizations</h1>
+  <h1>Homework Week 10 Visualisation</h1>
   
   <!-- Container for the choropleth map -->
   <div id="choropleth_map"></div>
-
+  
   <!-- Container for the line chart -->
   <div id="line_chart"></div>
-
-  <script>
-    // Embed the choropleth map
-    var vg_1 = "./HomeworkWeek9.json"; // Ensure this path is correct
-    vegaEmbed("#choropleth_map", vg_1, { width: 800, height: 400 })
-      .then(function(result) {
-        console.log("Choropleth map embedded successfully!");
-      })
-      .catch(function(error) {
-        console.error("Error embedding choropleth map:", error);
-      });
-
-    // Embed the line chart
-    var vg_2 = "./HomeworkWeek10.json"; // Ensure this path is correct
-    vegaEmbed("#line_chart", vg_2, { width: 800, height: 400 })
-      .then(function(result) {
-        console.log("Line chart embedded successfully!");
-      })
-      .catch(function(error) {
-        console.error("Error embedding line chart:", error);
-      });
-  </script>
+  
 </body>
+
 </html>
