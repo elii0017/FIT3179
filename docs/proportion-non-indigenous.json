@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 150,
   "height": 200,
-    "title": "Proportion of Non-Indigenous",
+    "title": "Non-Indigenous",
     "data": {
       "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/2023-2024-Demographic.csv",
       "format": {
