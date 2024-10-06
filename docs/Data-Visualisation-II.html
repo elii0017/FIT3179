@@ -6,36 +6,53 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>  
   <script src="./Data-Visualisation-II.js"></script>
+  
+  <style>
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      gap: 50px; /* Adjusts space between pie charts */
+    }
+
+    .chart-container {
+      width: 300px; /* You can adjust width of the individual charts */
+    }
+  </style>
 </head>
   
 <body>
   <center>
     <h1> Data Visualisation II  </h1>
-  <center>
-      <div id="choropleth_map"></div>
   </center>
+
+  <div id="choropleth_map"></div>
+
   <p style="margin-bottom: 50px;"></p>
+
   <center>
-      <div id="line_chart"></div>
-  </center>
-  <center>
+    <div id="line_chart"></div>
     <p> The drop in 2024 is due to data only available up to June </p>
   </center>
+
   <p style="margin-bottom: 50px;"></p>
-  <center>
-      <div id="stacked_bar"></div>
-  </center>
+
+  <div id="stacked_bar"></div>
+
   <p style="margin-bottom: 50px;"></p>
+
+  <!-- Flex container to align pie charts horizontally -->
   <center>
-      <div id="pie_comparison"></div>
-  </center>
-  <p style="margin-bottom: 50px;"></p>
-  <center>
-      <div id="pie-indigenous"></div>
-  </center>
-  <p style="margin-bottom: 50px;"></p>
-  <center>
-      <div id="pie_non_indigenous"></div>
+    <div class="flex-container">
+      <div class="chart-container">
+        <div id="pie_comparison"></div>
+      </div>
+      <div class="chart-container">
+        <div id="pie-indigenous"></div>
+      </div>
+      <div class="chart-container">
+        <div id="pie_non_indigenous"></div>
+      </div>
+    </div>
   </center>
 
 </body>
