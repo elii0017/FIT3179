@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-    <script src="./Week 10.js"></script> 
-    
     <title>Homework Week 10 Visualisation</title>
 
     <style>
@@ -19,33 +16,33 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             line-height: 1.6;
-            text-align: center; /* Centering the text */
+            text-align: center;
         }
 
         .page {
-            max-width: 1200px; /* Centering the content */
+            max-width: 1200px;
             margin: 0 auto;
         }
 
         .subsection {
-            margin-bottom: 40px; /* Space between subsections */
-            padding: 20px; /* Padding inside the section */
-            border: 1px solid #ccc; /* Optional: border around sections */
-            border-radius: 5px; /* Optional: rounded corners */
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
         }
 
         .vis-container {
-            width: 500%; /* Full width of the container */
+            width: 100%; /* Full width of the container */
             height: 400px; /* Fixed height for charts */
             margin: 20px 0; /* Space around charts */
         }
 
         .description {
-            padding: 10px; /* Padding inside descriptions */
+            padding: 10px;
         }
 
         h1, h2 {
-            text-align: center; /* Center headings */
+            text-align: center;
         }
     </style>
 </head>
@@ -56,8 +53,7 @@
         <div class="subsection">
             <h2>Daily Imprisonment Rate in Australia</h2>
             <div id="choropleth_map" class="vis-container"></div>
-            <div class="description">
-            </div>
+            <div class="description"></div>
         </div>
 
         <!-- Second Subsection for Line Chart -->
@@ -68,23 +64,32 @@
                 <p>The drop in 2024 is due to data being available only up to June of that year</p>
             </div>
         </div>
-        
     </div>
 
     <script type="text/javascript">
-        // Embed the choropleth map
-        var vg_1 = "./HomeworkWeek9.json";
-        vegaEmbed("#choropleth_map", vg_1).then(function(result) {
-            // Access the Vega view instance if needed
-        }).catch(console.error);
+        // Function to dynamically load Vega visualization
+        function loadVega(containerId, jsonFile) {
+            const container = document.getElementById(containerId);
+            const containerWidth = container.clientWidth; // Get container's width
 
-        // Embed the line chart
-        var vg_2 = "./HomeworkWeek10.json";
-        vegaEmbed("#line_chart", vg_2).then(function(result) {
-            // Access the Vega view instance if needed
-        }).catch(console.error);
+            fetch(jsonFile)
+                .then((response) => response.json())
+                .then((vegaSpec) => {
+                    vegaSpec.width = containerWidth - 80; // Adjust width
+                    vegaSpec.height = 0.62 * vegaSpec.width; // Optional: Set height based on width
+                    
+                    vegaEmbed(containerId, vegaSpec, { "actions": false })
+                        .then(function (result) {
+                            // Access the Vega view instance if needed
+                        })
+                        .catch(console.error);
+                })
+                .catch(console.error);
+        }
 
+        // Load visualizations
+        loadVega("choropleth_map", "./HomeworkWeek9.json");
+        loadVega("line_chart", "./HomeworkWeek10.json");
     </script>
 </body>
-
 </html>
