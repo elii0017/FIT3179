@@ -35,7 +35,7 @@
         }
 
         .vis-container {
-            width: 100%; /* Full width of the container */
+            width: 600%; /* Full width of the container */
             height: 400px; /* Fixed height for charts */
             margin: 20px 0; /* Space around charts */
         }
@@ -71,7 +71,7 @@
         
     </div>
 
-    <script>
+    <script type="text/javascript">
         // Embed the choropleth map
         var vg_1 = "./HomeworkWeek9.json";
         vegaEmbed("#choropleth_map", vg_1).then(function(result) {
@@ -83,6 +83,7 @@
         vegaEmbed("#line_chart", vg_2).then(function(result) {
             // Access the Vega view instance if needed
         }).catch(console.error);
+
     </script>
 </body>
 
