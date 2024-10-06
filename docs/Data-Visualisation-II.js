@@ -22,7 +22,7 @@ vegaEmbed("#pie_comparison", vg_4).then(function(result) {
 }).catch(console.error);
 
 // Embed the Stacked Bar Chart
-var vg_5 = "Visualisation Codes/male.json"; // Adjust path
+var vg_5 = "../Visualisation Codes/male.json"; // Adjust path
 vegaEmbed("#stacked_bar", vg_5).then(function(result) {
   // Access the Vega view instance if needed
 }).catch(console.error);
