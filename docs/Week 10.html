@@ -18,8 +18,8 @@
           display: flex;
           flex-direction: column;
           align-items: center; /* Center contents horizontally */
-          justify-content: center; /* Center contents vertically */
-          height: 100vh; /* Make the body full height */
+          justify-content: flex-start; /* Start from the top */
+          height: auto; /* Adjust height to avoid unnecessary full height */
           margin: 0; /* Remove default margin */
       }
       #choropleth_map, #line_chart {
@@ -33,6 +33,8 @@
           margin-top: 10px; /* Space above the description */
           font-size: 14px; /* Adjust font size as needed */
           color: #555; /* Optional: change text color */
+          width: 80%; /* Match the width of visualizations */
+          max-width: 800px; /* Optional: maximum width */
       }
   </style>
 </head>
