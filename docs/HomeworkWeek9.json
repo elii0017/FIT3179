@@ -2,7 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 800,
   "height": 400,
-  "title": "Prisoner Population by Australian State/Territory",
   "projection": {"type": "mercator"},
   "data": {
     "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Topojson%20Map/Aus_Map.json",
