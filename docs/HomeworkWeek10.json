@@ -1,116 +1,27 @@
-{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  "title": "Prisoner Receptions from 2016 to 2024 for Australia's States and Demographics",
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
   
-  "data": {
-    "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/2016-2024-Demographic.csv",
-    "format": {
-      "type": "csv"
-    }
-  },
+  <script src="Week 10.js"></script>
   
-  "transform": [
-    {
-      "calculate": "datum.Demographic + ' ' + datum.Gender",
-      "as": "DemographicGender"
-    },
-    {
-      "filter": {"selection": "stateFilter"}
-    },
-    {
-      "filter": {"selection": "genderFilter"}
-    },
-    {
-      "filter": {"selection": "demographicFilter"}
-    }
-  ],
+  <title>Homework Week 10 Visualisation</title>
+</head>
   
-  "selection": {
-    "demographicFilter": {
-      "type": "multi",
-      "fields": ["Demographic"],
-      "init": {"Demographic": ["Indigenous", "Non-Indigenous", "Australian"]},
-      "bind": {
-        "input": "select",
-        "options": ["Indigenous", "Non-Indigenous", "Australian"],
-        "name": "Demographic:",
-        "multiple": true
-      }
-    },
-    "genderFilter": {
-      "type": "multi",
-      "fields": ["Gender"],
-      "init": {"Gender": ["Male", "Female", "Total"]},
-      "bind": {
-        "input": "select",
-        "options": ["Male", "Female", "Total"],
-        "name": "Gender:",
-        "multiple": true
-      }
-    },
-    "stateFilter": {
-      "type": "single",
-      "fields": ["State"],
-      "init": {"State": "AUSTRALIA"},
-      "bind": {
-        "input": "select",
-        "options": [
-          "AUSTRALIA", 
-          "NSW", 
-          "VIC", 
-          "QLD", 
-          "SA", 
-          "WA", 
-          "TAS", 
-          "NT", 
-          "ACT"
-        ],
-        "name": "State/Territory:"
-      }
-    }
-  },
+<body>
+  <h1>Homework Week 10 Visualisation</h1>
   
-  "mark": "line",
+  <!-- Container for the choropleth map -->
+  <div id="choropleth_map"></div>
   
-  "encoding": {
-    "x": {
-      "field": "Year",
-      "type": "ordinal",
-      "title": "Year"
-    },
-    "y": {
-      "field": "Count",
-      "type": "quantitative",
-      "title": "Prisoner Receptions"
-    },
-    "color": {
-      "field": "DemographicGender",
-      "type": "nominal",
-      "title": "Demographic and Gender",
-      "scale": {
-        "domain": [
-          "Australian Total",
-          "Australian Male",
-          "Non-Indigenous Total",
-          "Non-Indigenous Male",
-          "Indigenous Total",
-          "Indigenous Male",
-          "Australian Female",
-          "Non-Indigenous Female",
-          "Indigenous Female"
-        ],
-        "scheme": "dark2"
-      },
-      "legend": {
-        "title": "Demographic and Gender"
-      }
-    },
-    "tooltip": [
-      {"field": "State", "type": "nominal", "title": "State"},
-      {"field": "Count", "type": "quantitative", "title": "Prisoner Receptions"},
-      {"field": "Demographic", "type": "nominal", "title": "Demographic"},
-      {"field": "Gender", "type": "nominal", "title": "Gender"}
-    ]
-  }
-}
+  <!-- Container for the line chart -->
+  <div id="line_chart"></div>
+  
+</body>
+</html>
