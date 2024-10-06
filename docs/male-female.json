@@ -4,6 +4,7 @@
   "height": 400,
   "width": 200,
   "data": {
+    "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/Age-Male-Female.csv",
     "format": {
       "type": "csv"
     }
