@@ -2,7 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
   "title": "Prisoner Receptions from 2016 to 2024 for Australia's States and Demographics",
-  "width": "container",
   
   "data": {
     "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/2016-2024-Demographic.csv",
