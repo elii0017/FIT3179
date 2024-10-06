@@ -1,44 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-  
-  <script src="Week 10.js"></script>
-  
-  <title>Homework Week 10 Visualisation</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-  <style>
-      body {
-          display: flex;
-          flex-direction: column;
-          align-items: center; /* Center contents horizontally */
-          justify-content: center; /* Center contents vertically */
-          height: 100vh; /* Make the body full height */
-          margin: 0; /* Remove default margin */
-      }
-      #choropleth_map, #line_chart {
-          width: 80%; /* Set width of visualizations */
-          max-width: 800px; /* Optional: maximum width */
-          height: 400px; /* Set a height for the visualizations */
-          margin: 20px 0; /* Space between visualizations */
-      }
-  </style>
+    <title>Homework Week 10 Visualisation</title>
+
 </head>
-  
+
 <body>
-  <h1>Homework Week 10 Visualisation</h1>
-  
-  <!-- Container for the choropleth map -->
-  <div id="choropleth_map"></div>
-  
-  <!-- Container for the line chart -->
-  <div id="line_chart"></div>
-  
+    <div class="page">
+        <!-- First Subsection for Choropleth Map -->
+        <div class="subsection">
+            <h2>Daily Imprisonment Rate in Australia</h2>
+            <div id="choropleth_map" class="vis-container"></div>
+            <div class="description"></div>
+        </div>
+
+        <!-- Second Subsection for Line Chart -->
+        <div class="subsection">
+            <h2>Prisoner Receptions from 2016 to 2024 for Australia's States and Demographics</h2>
+            <div id="line_chart" class="vis-container"></div>
+            <div class="description">
+                <p>The drop in 2024 is due to data being available only up to June of that year</p>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
