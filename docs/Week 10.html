@@ -1,43 +1,86 @@
-<script>
-  // Define the choropleth map specification
-  const vg_1 = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
-    "height": 400,
-    "data": {
-      // Your data source
-    },
-    "mark": "geoshape",
-    "encoding": {
-      // Your encoding settings
-    }
-  };
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  
+  <title>Homework Week 10 Visualisation</title>
 
-  // Define the line chart specification
-  const vg_2 = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
-    "height": 400,
-    "data": {
-      // Your data source
-    },
-    "mark": "line",
-    "encoding": {
-      // Your encoding settings
-    }
-  };
+  <style>
+      body {
+          display: flex;
+          flex-direction: column;
+          align-items: center; /* Center contents horizontally */
+          justify-content: center; /* Center contents vertically */
+          height: 100vh; /* Make the body full height */
+          margin: 0; /* Remove default margin */
+      }
+      #choropleth_map, #line_chart {
+          width: 100%; /* Set width to 100% */
+          max-width: 800px; /* Maintain maximum width */
+          height: 400px; /* Set fixed height */
+          margin: 20px 0; /* Space between visualizations */
+          overflow: hidden; /* Prevents overflowing content */
+      }
+  </style>
+</head>
+  
+<body>
+  <h1>Homework Week 10 Visualisation</h1>
+  
+  <!-- Container for the choropleth map -->
+  <div id="choropleth_map"></div>
+  
+  <!-- Container for the line chart -->
+  <div id="line_chart"></div>
 
-  // Embed the choropleth map
-  vegaEmbed("#choropleth_map", vg_1)
-    .then(function(result) {
-      // Access the Vega view instance if needed
-    })
-    .catch(console.error);
+  <script>
+    // Define the choropleth map specification
+    const vg_1 = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "width": 800,  // Set the width
+      "height": 400, // Set the height
+      "data": {
+        // Your data source
+      },
+      "mark": "geoshape",
+      "encoding": {
+        // Your encoding settings
+      }
+    };
 
-  // Embed the line chart
-  vegaEmbed("#line_chart", vg_2)
-    .then(function(result) {
-      // Access the Vega view instance if needed
-    })
-    .catch(console.error);
-</script>
+    // Define the line chart specification
+    const vg_2 = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "width": 800,  // Set the width
+      "height": 400, // Set the height
+      "data": {
+        // Your data source
+      },
+      "mark": "line",
+      "encoding": {
+        // Your encoding settings
+      }
+    };
+
+    // Embed the choropleth map
+    vegaEmbed("#choropleth_map", vg_1)
+      .then(function(result) {
+        // Access the Vega view instance if needed
+      })
+      .catch(console.error);
+
+    // Embed the line chart
+    vegaEmbed("#line_chart", vg_2)
+      .then(function(result) {
+        // Access the Vega view instance if needed
+      })
+      .catch(console.error);
+  </script>
+</body>
+</html>
