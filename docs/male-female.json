@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Proportion of Genders by Age Bracket",
   "height": 400,
   "width": 200,
   "data": {
