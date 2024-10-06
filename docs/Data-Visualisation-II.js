@@ -5,7 +5,7 @@ vegaEmbed("#choropleth_map", vg_1).then(function(result) {
 }).catch(console.error);
 
 // Embed the line chart for week 9
-var vg_2 = "Visualisation Codes/proportion-indigenous.json"; // Adjust path
+var vg_2 = "../Visualisation Codes/proportion-indigenous.json"; // Adjust path
 vegaEmbed("#pie-indigenous", vg_2).then(function(result) {
   // Access the Vega view instance if needed
 }).catch(console.error);
