@@ -13,6 +13,29 @@
   <script src="./Week 10.js"></script>
   
   <title>Homework Week 10 Visualisation</title>
+
+  <style>
+    /* Ensure divs are block elements and stack vertically */
+    #choropleth_map, 
+    #line_chart {
+      display: block; /* Ensure they are block elements */
+      width: 800px;   /* Set a fixed width for the charts */
+      height: 600px;  /* Adjust the height as needed */
+      margin: 25px 0; /* Space between the charts */
+    }
+
+    .description {
+      margin-top: 5px; /* Space between chart and description */
+      font-size: 14px;  /* Optional: Adjust font size */
+      color: #555;      /* Optional: Change text color */
+    }
+
+    body {
+      margin: 0;      /* Remove default body margin */
+      padding: 20px;  /* Optional: Add padding to the body */
+      box-sizing: border-box; /* Include padding and borders in element's total width and height */
+    }
+  </style>
 </head>
   
 <body>
@@ -24,13 +47,11 @@
   <!-- Container for the line chart -->
   <div id="line_chart"></div>
   
-  <!-- Text explaining the drop in data -->
-  <div class="pure-g">
-    <div class="pure-u-1 description">
-      <p>
-        The drop in 2024 is due to data being available only up to June of that year
-      </p>
-    </div>
+  <!-- Text explaining the drop in data directly below the line chart -->
+  <div class="description">
+    <p>
+      "The drop in 2024 is due to data being available only up to June of that year."
+    </p>
   </div>
   
 </body>
