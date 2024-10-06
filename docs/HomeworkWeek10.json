@@ -4,8 +4,6 @@
   "width": 800,
   "height": 400,
   
-  "title": "Prisoner Receptions from 2016 to 2024 for Australia's States and Demographics",
-  
   "data": {
     "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/2016-2024-Demographic.csv",
     "format": {
