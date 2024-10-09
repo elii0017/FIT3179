@@ -51,6 +51,9 @@
   "config": {
     "view": {
       "strokeOpacity": 0
+    },
+    "axis": {
+      "grid": false  // This removes the grid lines
     }
   }
 }
