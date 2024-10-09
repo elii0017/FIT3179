@@ -1,89 +1,50 @@
-{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  
-  "width": 800,
-  "height": 400,
-  
-  "data": {
-    "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/2016-2024-Demographic.csv",
-    "format": {
-      "type": "csv"
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>  
+  <script src="./Data-Visualisation-II.js"></script>
+
+  <style>
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      gap: 50px; /* Adjusts space between pie charts */
     }
-  },
-  
-  "transform": [
-    {
-      "calculate": "datum.Demographic + ' ' + datum.Gender",
-      "as": "DemographicGender"
-    },
-    {
-      "filter": {"selection": "stateFilter"}
+
+    .chart-container {
+      width: 150px; 
     }
-  ],
+  </style>
   
-  "selection": {
-    "stateFilter": {
-      "type": "single",
-      "fields": ["State"],
-      "init": {"State": "AUSTRALIA"},
-      "bind": {
-        "input": "select",
-        "options": [
-          "AUSTRALIA", 
-          "NSW", 
-          "VIC", 
-          "QLD", 
-          "SA", 
-          "WA", 
-          "TAS", 
-          "NT", 
-          "ACT"
-        ],
-        "name": "State/Territory:"
-      }
-    }
-  },
-  
-  "mark": "line",
-  
-  "encoding": {
-    "x": {
-      "field": "Year",
-      "type": "ordinal",
-      "title": "Year"
-    },
-    "y": {
-      "field": "Count",
-      "type": "quantitative",
-      "title": "Prisoner Receptions"
-    },
-    "color": {
-      "field": "DemographicGender",
-      "type": "nominal",
-      "title": "Demographic and Gender",
-      "scale": {
-        "domain": [
-          "Australian Total",
-          "Australian Male",
-          "Non-Indigenous Total",
-          "Non-Indigenous Male",
-          "Indigenous Total",
-          "Indigenous Male",
-          "Australian Female",
-          "Non-Indigenous Female",
-          "Indigenous Female"
-        ],
-        "scheme": "dark2"
-      },
-      "legend": {
-        "title": "Demographic and Gender"
-      }
-    },
-    "tooltip": [
-      {"field": "State", "type": "nominal", "title": "State"},
-      {"field": "Count", "type": "quantitative", "title": "Prisoner Receptions"},
-      {"field": "Demographic", "type": "nominal", "title": "Demographic"},
-      {"field": "Gender", "type": "nominal", "title": "Gender"}
-    ]
-  }
-}
+</head>
+
+<body>
+  <center>
+    <h1> Australia's Correct Services </h1>
+  </center>
+
+  <center>
+    <h2>Australia's Daily Imprisonment Rate</h2>
+    <div id="heat_map"></div>
+  </center>
+  <p style="margin-bottom: 50px;"></p>
+
+  <center>
+    <h2>2016-2024 Prisoner Reception</h2>
+    <div id="line_chart"></div>
+    <p> The drop in 2024 is due to data only available up to June </p>
+  </center>
+  <p style="margin-bottom: 50px;"></p>
+
+  <center>
+    <h2>Male and Female Prisoner Proportions</h2>
+    <div id="stacked_bar"></div>
+  </center>
+
+  <center>
+    <h2>Indigenous to Non-Indigenous Prisoner Proportion</h2>
+    <div id="pie_comparison"></div>
+  </center>
