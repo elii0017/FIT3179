@@ -40,7 +40,7 @@
     "color": {
       "field": "Age Bracket (Years)", 
       "type": "nominal",
-      "scale": {"scheme": "category10"}
+      "scale": {"scheme": "dark2"}
     },
     "tooltip": [
       {"field": "Age Bracket (Years)", "type": "nominal", "title": "Age Bracket"},
