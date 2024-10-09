@@ -41,6 +41,11 @@
         ],
         "name": "State/Territory:"
       }
+    },
+    "colorFilter": {
+      "type": "multi",
+      "fields": ["DemographicGender"],
+      "bind": "legend"
     }
   },
   
@@ -58,26 +63,27 @@
       "title": "Prisoner Receptions"
     },
     "color": {
-      "field": "DemographicGender",
-      "type": "nominal",
-      "title": "Demographic and Gender",
-      "scale": {
-        "domain": [
-          "Australian Total",
-          "Australian Male",
-          "Non-Indigenous Total",
-          "Non-Indigenous Male",
-          "Indigenous Total",
-          "Indigenous Male",
-          "Australian Female",
-          "Non-Indigenous Female",
-          "Indigenous Female"
-        ],
-        "scheme": "dark2"
-      },
-      "legend": {
+      "condition": {
+        "selection": "colorFilter",
+        "field": "DemographicGender",
+        "type": "nominal",
+        "scale": {
+          "domain": [
+            "Australian Total",
+            "Australian Male",
+            "Non-Indigenous Total",
+            "Non-Indigenous Male",
+            "Indigenous Total",
+            "Indigenous Male",
+            "Australian Female",
+            "Non-Indigenous Female",
+            "Indigenous Female"
+          ],
+          "scheme": "dark2"
+        },
         "title": "Demographic and Gender"
-      }
+      },
+      "value": "lightgray"
     },
     "tooltip": [
       {"field": "State", "type": "nominal", "title": "State"},
