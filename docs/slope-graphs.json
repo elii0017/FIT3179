@@ -1,0 +1,60 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 300,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/2023-2024-Demographic.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {
+      "filter": "datum['Age Bracket (Years)'] != 'Total'"
+    },
+    {
+      "fold": ["Non-Indigenous %", "Indigenous (%)"],
+      "as": ["Demographic", "Percentage"]
+    }
+  ],
+  "facet": {
+    "column": {
+      "field": "Demographic",
+      "header": {
+        "title": null,
+        "labelExpr": "datum.value == 'Non-Indigenous %' ? 'Non-Indigenous' : 'Indigenous'"
+      }
+    }
+  },
+  "spec": {
+    "mark": {
+      "type": "line",
+      "point": true
+    },
+    "encoding": {
+      "x": {
+        "field": "Period (Year)",
+        "type": "ordinal",
+        "axis": {"title": "Year"}
+      },
+      "y": {
+        "field": "Percentage",
+        "type": "quantitative",
+        "axis": {"title": "Percentage (%)"}
+      },
+      "color": {
+        "field": "Age Bracket (Years)",
+        "type": "nominal",
+        "scale": {"scheme": "set2"},
+        "title": "Age Bracket"
+      },
+      "tooltip": [
+        {"field": "Age Bracket (Years)", "type": "nominal", "title": "Age Bracket"},
+        {"field": "Demographic", "type": "nominal", "title": "Demographic"},
+        {"field": "Percentage", "type": "quantitative", "title": "Percentage (%)"},
+        {"field": "Period (Year)", "type": "ordinal", "title": "Year"}
+      ]
+    }
+  },
+  "config": {
+    "view": {"stroke": "transparent"}
+  }
+}
