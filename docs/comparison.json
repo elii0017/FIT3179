@@ -8,23 +8,7 @@
       "type": "csv"
     }
   },
-  "params": [
-    {
-      "name": "yearSelection",
-      "value": 2023,
-      "bind": {
-        "input": "range",
-        "min": 2023,
-        "max": 2024,
-        "step": 1,
-        "name": "Year: "
-      }
-    }
-  ],
   "transform": [
-    {
-      "filter": "datum['Period (Year)'] == yearSelection"
-    },
     {
       "aggregate": [
         {
@@ -38,7 +22,7 @@
           "as": "Total Non-Indigenous"
         }
       ],
-      "groupby": []
+      "groupby": ["Period (Year)"]
     },
     {
       "fold": ["Total Indigenous", "Total Non-Indigenous"],
@@ -49,25 +33,36 @@
       "as": "Percentage"
     }
   ],
-  "mark": "arc",
-  "encoding": {
-    "theta": {
-      "field": "Percentage",
-      "type": "quantitative"
-    },
-    "color": {
-      "field": "Demographic",
-      "type": "nominal",
-      "scale": {
-        "domain": ["Total Indigenous", "Total Non-Indigenous"],
-        "range": ["#1f77b4", "#ff7f0e"] 
+  "facet": {
+    "column": {
+      "field": "Period (Year)",
+      "type": "ordinal",
+      "header": {
+        "title": "Indigenous vs Non-Indigenous"
       }
-    },
-    "tooltip": [
-      {"field": "Demographic", "type": "nominal"},
-      {"field": "Count", "type": "quantitative"},
-      {"field": "Percentage", "type": "quantitative", "format": ".2f"}
-    ]
+    }
+  },
+  "spec": {
+    "mark": "arc",
+    "encoding": {
+      "theta": {
+        "field": "Percentage",
+        "type": "quantitative"
+      },
+      "color": {
+        "field": "Demographic",
+        "type": "nominal",
+        "scale": {
+          "domain": ["Total Indigenous", "Total Non-Indigenous"],
+          "range": ["#1f77b4", "#ff7f0e"]
+        }
+      },
+      "tooltip": [
+        {"field": "Demographic", "type": "nominal"},
+        {"field": "Count", "type": "quantitative"},
+        {"field": "Percentage", "type": "quantitative", "format": ".2f"}
+      ]
+    }
   },
   "view": {
     "stroke": "transparent"
