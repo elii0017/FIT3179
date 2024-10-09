@@ -18,38 +18,10 @@
     },
     {
       "filter": {"selection": "stateFilter"}
-    },
-    {
-      "filter": {"selection": "genderFilter"}
-    },
-    {
-      "filter": {"selection": "demographicFilter"}
     }
   ],
   
   "selection": {
-    "demographicFilter": {
-      "type": "multi",
-      "fields": ["Demographic"],
-      "init": {"Demographic": ["Indigenous", "Non-Indigenous", "Australian"]},
-      "bind": {
-        "input": "select",
-        "options": ["Indigenous", "Non-Indigenous", "Australian"],
-        "name": "Demographic:",
-        "multiple": true
-      }
-    },
-    "genderFilter": {
-      "type": "multi",
-      "fields": ["Gender"],
-      "init": {"Gender": ["Male", "Female", "Total"]},
-      "bind": {
-        "input": "select",
-        "options": ["Male", "Female", "Total"],
-        "name": "Gender:",
-        "multiple": true
-      }
-    },
     "stateFilter": {
       "type": "single",
       "fields": ["State"],
