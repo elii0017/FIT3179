@@ -1,12 +1,12 @@
 // Embed the choropleth map
 var vg_1 = "./HomeworkWeek9.json"; // Adjust path to go up one directory
-vegaEmbed("#choropleth_map", vg_1).then(function(result) {
+vegaEmbed("#heat_map", vg_1).then(function(result) {
   // Access the Vega view instance if needed
 }).catch(console.error);
 
 // Embed the pie charts
-var vg_2 = "./pie-charts.json"; // Adjust path
-vegaEmbed("#pie_charts", vg_2).then(function(result) {
+var vg_2 = "./slope-graphs.json"; // Adjust path
+vegaEmbed("#slopes", vg_2).then(function(result) {
   // Access the Vega view instance if needed
 }).catch(console.error);
 
