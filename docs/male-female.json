@@ -12,19 +12,8 @@
     {
       "fold": ["Males (%)", "Females (%)"],
       "as": ["Gender", "Percentage"]
-    },
-    {
-      "calculate": "if(datum['Age Bracket (Years)'] === brush, 1, 0)",
-      "as": "sort_order"
     }
   ],
-  "selection": {
-    "brush": {
-      "type": "single",
-      "fields": ["Age Bracket (Years)"],
-      "bind": "legend"
-    }
-  },
   "mark": "bar",
   "encoding": {
     "x": {
@@ -32,8 +21,7 @@
       "type": "nominal",
       "axis": {
         "title": ""
-      },
-      "sort": {"field": "sort_order", "order": "ascending"} 
+      }
     },
     "y": {
       "field": "Percentage",
@@ -50,13 +38,9 @@
       "spacing": 0.1
     },
     "color": {
-      "condition": {
-        "selection": "brush", 
-        "field": "Age Bracket (Years)", 
-        "type": "nominal",
-        "scale": {"scheme": "category10"}
-      },
-      "value": "lightgray" 
+      "field": "Age Bracket (Years)", 
+      "type": "nominal",
+      "scale": {"scheme": "category10"}
     },
     "tooltip": [
       {"field": "Age Bracket (Years)", "type": "nominal", "title": "Age Bracket"},
