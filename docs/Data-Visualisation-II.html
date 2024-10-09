@@ -2,27 +2,42 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-  
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>  
   <script src="./Data-Visualisation-II.js"></script>
   
-  <title>Data Visualisation II </title>
 </head>
-  
+
 <body>
-  <h1>Data Visualisation II</h1>
-  <div id="choropleth_map"></div>
-  <div id="line_chart_week9"></div>
-  <div id="bar_chart_non_indigenous"></div>
-  <div id="bar_chart_comparison"></div>
-  <div id="stacked_bar_chart"></div>
-  <div id="line_chart_week10"></div>  
-</body>
-  
-</html>
+  <center>
+    <h1> Australia's Correct Services </h1>
+  </center>
+
+  <center>
+    <h2>Australia's Daily Imprisonment Rate</h2>
+    <div id="heat_map"></div>
+  </center>
+  <p style="margin-bottom: 50px;"></p>
+
+  <center>
+    <h2>2016-2024 Prisoner Reception</h2>
+    <div id="line_chart"></div>
+    <p> The drop in 2024 is due to data only available up to June </p>
+  </center>
+  <p style="margin-bottom: 50px;"></p>
+
+  <center>
+    <h2>Male and Female Prisoner Proportions</h2>
+    <div id="stacked_bar"></div>
+  </center>
+
+  <center>
+    <h2>Indigenous to Non-Indigenous Prisoner Proportion</h2>
+    <div id="pie_comparison"></div>
+  </center>
+
+  <center>
+    <h2>Demographic Breakdown of Age Brackets in Custody</h2>
+    <div id="slopes"></div>
+  </center>
