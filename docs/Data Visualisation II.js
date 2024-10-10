@@ -1,5 +1,5 @@
 var vg_1 = "./line-dot.json";
-vegaEmbed("sidebars",vg_1).then(function(results){
+vegaEmbed("linedot",vg_1).then(function(results){
 }).catch(console.error);  
 
 var vg_2 = "./HomeworkWeek9.json"; 
