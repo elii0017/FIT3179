@@ -8,7 +8,6 @@
   <script src="./Data Visualisation II.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <style>
-    /* Layout Styling */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -16,11 +15,11 @@
     }
     
     .page-wrapper {
-      max-width: 1100px; 
+      max-width: 1100px;
       margin: 0 auto;
       padding: 30px;
       background-color: white; 
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     }
 
     .header-strip {
@@ -59,12 +58,12 @@
     .container {
       padding: 50px 0;
       display: flex;
-      justify-content: center; 
-      flex-direction: column; 
+      justify-content: flex-start; 
+      flex-direction: column;
     }
 
     .visualization {
-      margin: 0 auto;
+      margin-left: 0; 
       max-width: 90%;
     }
 
@@ -118,7 +117,7 @@
       <div id="line_chart" class="visualization"></div>
       <p>The drop in 2024 is due to data only available up to June.</p>
     </div>
-    
+
     <div class="container">
       <h2>Proportions of Male and Female Prisoners</h2>
       <div id="stacked_bar" class="visualization"></div>
