@@ -25,4 +25,3 @@ vegaEmbed("#pie_comparison", vg_6).then(function(result) {
 var vg_7 = "./side-bars.json";
 vegaEmbed("#sidebars",vg_7).then(function(results){
 }).catch(console.error);
-
