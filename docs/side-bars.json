@@ -4,8 +4,8 @@
   "height": 300,
   "autosize":{
     "type": "fit",
-    "contains": "padding",
-  }
+    "contains": "padding"
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/Average-Daily-Imprisonment-Rate.csv",
     "format": {
