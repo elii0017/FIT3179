@@ -33,12 +33,10 @@
     "xOffset": {
       "field": "Quarter"
     },
-    "tooltip": [
-      {"field": "States", "title": "State"},
-      {"field": "Quarter", "title": "Quarter"},
-      {"field": "Value", "title": "Value"}
+    "tooltip":[
+      {"field": ""}
     ]
   },
-  "width": 600,
+  "width": {"step": 50, "for": "position"},
   "height": 300
 }
