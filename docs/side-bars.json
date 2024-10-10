@@ -34,7 +34,9 @@
       "field": "Quarter"
     },
     "tooltip":[
-      {"field": ""}
+      {"field": "States", "title": "State"},
+      {"field": "Quarter", "title": "Quarter"},
+      {"field": "Value", "title": "Value"}
     ]
   },
   "width": {"step": 50, "for": "position"},
