@@ -39,6 +39,5 @@
       {"field": "Value", "title": "Value"}
     ]
   },
-  "width": {"step": 50, "for": "position"},
   "height": 300
 }
