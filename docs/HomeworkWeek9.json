@@ -1,166 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>  
-  <script src="./Data Visualisation II.js"></script>
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-    /* Layout Styling */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #F8F8F8;
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 400,
+  "projection": {"type": "mercator"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Topojson%20Map/Aus_Map.json",
+    "format": {"type": "topojson", "feature": "STE_2016_AUST"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.STE_NAME16",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/Average-Daily-Imprisonment-Rate.csv"
+        },
+        "key": "States",
+        "fields": ["Mar Qtr 2023", "Jun Qtr 2023"]
+      }
+    },
+    {
+      "fold": ["Mar Qtr 2023", "Jun Qtr 2023"],
+      "as": ["Quarter", "ImprisonmentRate"]
+    },
+    {
+      "filter": {"selection": "selected"}
     }
-    
-    .page-wrapper {
-      max-width: 1100px; /* Set the width for the centered content */
-      margin: 0 auto;
-      padding: 30px;
-      background-color: white; /* Background color for the content */
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  ],
+  "selection": {
+    "selected": {
+      "type": "single",
+      "fields": ["Quarter"],
+      "bind": {
+        "input": "select",
+        "options": ["Mar Qtr 2023", "Jun Qtr 2023"],
+        "name": "Select Quarter: "
+      },
+      "init": {"Quarter": "Mar Qtr 2023"}
     }
-
-    /* Header Styling */
-    .header-strip {
-      text-align: center;
-      background-color: #333; /* Dark background for the header */
-      color: white; /* White text for contrast */
-      padding: 20px;
-    }
-
-    h1 {
-      font-size: 2.5em;
-      color: white;
-    }
-
-    .header-strip p {
-      font-size: 1.2em;
-      margin: 0 auto;
-      max-width: 800px;
-      color: #DADADA;
-    }
-
-    /* Visualization and Text Sections */
-    h2 {
-      font-size: 1.8em;
-      color: black;
-      margin-top: 20px;
-      text-align: left; /* Align to the left */
-    }
-
-    p {
-      font-size: 1.1em;
-      color: gray;
-      line-height: 1.6;
-      text-align: left;
-    }
-
-    .container {
-      padding: 50px 0;
-      display: flex;
-      justify-content: center; /* Center the visualizations */
-      flex-direction: column; /* Stack the elements */
-    }
-
-    /* Style for all visualizations */
-    .visualization {
-      margin: 0 auto;
-      max-width: 90%;
-    }
-
-    /* Add page margins */
-    body::before, body::after {
-      content: "";
-      background-color: #F2D1B3; /* Add color to the sides (like the columns in your image) */
-      width: 100vw;
-      height: 100vh;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: -1;
-    }
-
-    body::after {
-      left: unset;
-      right: 0;
-    }
-
-    .content-footer {
-      text-align: center;
-      padding-top: 60px;
-    }
-
-  </style>
-</head>
-
-<body>
-
-  <div class="page-wrapper">
-    <!-- Header -->
-    <div class="header-strip">
-      <h1> Australia's Corrective Services</h1>
-      <p>
-        This visualisation explores data on Australia's corrective services, 
-        showing trends in imprisonment rates, prisoner demographics, and more from 2016 to 2024.
-      </p>
-    </div>
-
-    <!-- Content Section 1 -->
-    <div class="container">
-      <h2>Australians in Custody</h2>
-      <div id="linedot" class="visualization"></div>
-    </div>
-
-    <!-- Content Section 2 -->
-    <div class="container">
-      <h2>Australia's Daily Imprisonment Rate</h2>
-      <div id="heat_map" class="visualization"></div>
-    </div>
-
-    <!-- Content Section 3 -->
-    <div class="container">
-      <h2>2016-2024 Prisoner Reception</h2>
-      <div id="line_chart" class="visualization"></div>
-      <p>The drop in 2024 is due to data only available up to June.</p>
-    </div>
-
-    <!-- Content Section 4 -->
-    <div class="container">
-      <h2>Proportions of Male and Female Prisoners</h2>
-      <div id="stacked_bar" class="visualization"></div>
-    </div>
-
-    <!-- Content Section 5 -->
-    <div class="container">
-      <h2>Indigenous to Non-Indigenous Prisoner Proportion</h2>
-      <div id="pie_comparison" class="visualization"></div>
-    </div>
-
-    <!-- Content Section 6 -->
-    <div class="container">
-      <h2>Demographic Breakdown of Age Brackets in Custody</h2>
-      <div id="slopes" class="visualization"></div>
-    </div>
-
-    <!-- Footer -->
-    <div class="content-footer">
-      <p>
-        Author: Eric Tianxiang Li
-        <br>
-        Date: 10/10/2024
-        <br>
-        Data Sources: 
-        <a href="https://www.abs.gov.au/statistics/people/crime-and-justice/corrective-services-australia" target="_blank">
-          Corrective Services Australia
-        </a>
-      </p>
-    </div>
-
-  </div> <!-- End of page-wrapper -->
-
-</body>
-
-</html>
+  },
+  "mark": {"type": "geoshape", "stroke": "white"},
+  "encoding": {
+    "color": {
+      "field": "ImprisonmentRate",
+      "type": "quantitative",
+      "scale": {
+        "type": "threshold",
+        "domain": [100, 200, 300, 1000, 1200],
+        "scheme": "blues"
+      },
+      "legend": {
+        "title": "Imprisonment Rate",
+        "orient": "left"  
+      }
+    },
+    "tooltip": [
+      {"field": "properties.STE_NAME16", "type": "nominal", "title": "States"},
+      {"field": "ImprisonmentRate", "type": "quantitative", "title": "Imprisonment Rate"}
+    ]
+  }
+}
