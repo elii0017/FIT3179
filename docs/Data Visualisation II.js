@@ -1,5 +1,5 @@
 var vg_1 = "./line-graph.json";
-vegaEmbed("linedot",vg_1).then(function(results){
+vegaEmbed("#linedot",vg_1).then(function(results){
 }).catch(console.error);  
 
 var vg_2 = "./HomeworkWeek9.json"; 
@@ -23,6 +23,6 @@ vegaEmbed("#pie_comparison", vg_6).then(function(result) {
 }).catch(console.error);
 
 var vg_7 = "./side-bars.json";
-vegaEmbed("sidebars",vg_7).then(function(results){
+vegaEmbed("#sidebars",vg_7).then(function(results){
 }).catch(console.error);
 
