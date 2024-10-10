@@ -12,9 +12,21 @@
     {
       "fold": ["Males (%)", "Females (%)"],
       "as": ["Gender", "Percentage"]
+    },
+    {
+      "filter": {
+        "selection": "highlight"
+      }
     }
   ],
   "mark": "bar",
+  "selection": {
+    "highlight": {
+      "type": "multi",
+      "fields": ["Age Bracket (Years)"],
+      "bind": "legend"
+    }
+  },
   "encoding": {
     "x": {
       "field": "Gender",
@@ -35,10 +47,14 @@
     "column": {
       "field": "Period (Year)",
       "type": "nominal",
-      "spacing": 0.1
+      "spacing": 0.1,
+      "axis": {
+        "labels": true,
+        "ticks": true
+      }
     },
     "color": {
-      "field": "Age Bracket (Years)", 
+      "field": "Age Bracket (Years)",
       "type": "nominal",
       "scale": {"scheme": "dark2"}
     },
@@ -51,9 +67,6 @@
   "config": {
     "view": {
       "strokeOpacity": 0
-    },
-    "axis": {
-      "grid": false
     }
   }
 }
