@@ -43,6 +43,11 @@
       {"field": "States", "title": "State"},
       {"field": "Quarter", "title": "Quarter"},
       {"field": "Value", "title": "Value"}
-    ]
+    ],
+    "column": {
+      "field": "Quarter",
+      "type": "nominal",
+      "stack": false
+    }
   }
 }
