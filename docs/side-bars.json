@@ -1,5 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": {"step": 75, "for": "position"},
+  "height": 300,
+  "autosize":{
+    "type": "fit",
+    "contains": "padding"
+  }
   "data": {
     "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/Average-Daily-Imprisonment-Rate.csv",
     "format": {
@@ -38,7 +44,5 @@
       {"field": "Quarter", "title": "Quarter"},
       {"field": "Value", "title": "Value"}
     ]
-  },
-  "width": {"step": 75, "for": "position"},
-  "height": 300
+  }
 }
