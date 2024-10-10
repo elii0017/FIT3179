@@ -1,35 +1,37 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
-    "height": 400,
-    "data": {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 400,
+  "data": {
       "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/Custody%20Quarter%20Average.csv",  
       "format": {
-        "type": "csv"
+          "type": "csv"
       }
-    },
-    "mark": {
+  },
+  "mark": {
       "type": "line",
       "point": true
-    },
-    "encoding": {
+  },
+  "encoding": {
       "x": {
-        "field": "Quarter",
-        "type": "temporal",
-        "title": "Quarter"
+          "field": "Quarter",
+          "type": "temporal", 
+          "title": "Quarter",
+          "axis": {
+              "format": "%b Qtr %Y" 
+          }
       },
       "y": {
-        "field": "Prisoners",
-        "type": "quantitative",
-        "title": "Number of Prisoners",
-        "scale":{
-            "domain": [40000,45000]
-        }
+          "field": "Prisoners",
+          "type": "quantitative",
+          "title": "Number of Prisoners",
+          "scale": {
+              "domain": [40000, 45000]
+          }
       },
       "tooltip": [
-        {"field": "Quarter", "type": "temporal", "title": "Quarter"},
-        {"field": "Prisoners", "type": "quantitative", "title": "Prisoners"}
+          {"field": "Quarter", "type": "temporal", "title": "Quarter"},
+          {"field": "Prisoners", "type": "quantitative", "title": "Prisoners"}
       ]
-    }
   }
-  
+}
