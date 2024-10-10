@@ -7,81 +7,109 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>  
   <script src="./Data Visualisation II.js"></script>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Center elements and modify heading design */
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    
+    .page-wrapper {
+      margin: 0 auto;
+      max-width: 1200px;
+    }
+    
+    h1 {
+      font-size: 2.5em;
+      color: black; /* Change the title color to black */
+      text-align: center;
+    }
+    
+    h2 {
+      color: black; /* Change the heading color to black */
+      font-size: 1.8em;
+      margin-top: 20px;
+    }
+
+    /* Adjust padding and margins for elements */
+    .container {
+      padding: 25px 0;
+      margin-bottom: 50px;
+    }
+
+    #linedot, #heat_map, #line_chart, #stacked_bar, #pie_comparison, #slopes {
+      margin: 0 auto;
+      max-width: 80%; /* Ensure visualizations are centered */
+    }
+
+    p {
+      font-size: 1.1em;
+      color: gray;
+    }
+    
+    .content p {
+      text-align: center;
+      padding-top: 60px;
+    }
+  </style>
 </head>
 
 <body>
   <div class="page-wrapper">
     <div class="header-strip">
       <h1> Australia's Corrective Services</h1>
-      <p style="margin-left: 25%; margin-right: 25%;">
+      <p style="margin-left: 20%; margin-right: 20%;">
         This visualisation explores data on Australia's corrective services, 
         showing trends in imprisonment rates, prisoner demographics, and more from 2016 to 2024.
       </p>
     </div>
   </div>
 
-  <div class="container" style="padding-top: 25px;">
-    <div style="text-align: center">
-      <h2 style="color:rgb(244, 175, 89)"> 
-        <p style="margin-top:5px;"> Australians in Custody </p>
-      </h2>
-    </div>
-
-    <div id="linedot" style="margin-bottom: 50px;"></div>
-
-    <div style="text-align: center">
-      <h2 style="color:rgb(244, 175, 89)">
-        <p style="margin-top:5px;"> Australia's Daily Imprisonment Rate </p>
-      </h2>
-    </div>
-
-    <div id="heat_map" style="margin-bottom: 50px;"></div>
-
-    <div style="text-align: center;">
-      <h2 style="color:rgb(244, 175, 89)">
-        <p style="margin-top:5px;"> 2016-2024 Prisoner Reception </p>
-      </h2>
-    </div>
-    <div id="line_chart"></div>
-    <p style="text-align: center;"> The drop in 2024 is due to data only available up to June.</p>
+  <div class="container">
+    <h2>Australians in Custody</h2>
+    <div id="linedot"></div>
   </div>
-    
-    <div style="text-align: center">
-      <h2 style="color:rgb(244, 175, 89)">
-        <p style="margin-top:5px;"> Proportions of Male and Female Prisoners </p>
-      </h2>
-    </div>
 
-    <div id="stacked_bar" style="margin-bottom: 50px;"></div>
+  <div class="container">
+    <h2>Australia's Daily Imprisonment Rate</h2>
+    <div id="heat_map"></div>
+  </div>
 
-    <div style="text-align: center">
-      <h2 style="color:rgb(244, 175, 89)">
-        <p style="margin-top:5px;"> Indigenous to Non-Indigenous Prisoner Proportion </p>
-      </h2>
-    </div>
+  <div class="container">
+    <h2>2016-2024 Prisoner Reception</h2>
+    <div id="line_chart"></div>
+    <p>The drop in 2024 is due to data only available up to June.</p>
+  </div>
 
-    <div id="pie_comparison" style="margin-bottom: 50px;"></div>
+  <div class="container">
+    <h2>Proportions of Male and Female Prisoners</h2>
+    <div id="stacked_bar"></div>
+  </div>
 
-    <div style="text-align: center">
-      <h2 style="color:rgb(244, 175, 89)">
-        <p style="margin-top:5px;"> Demographic Breakdown of Age Brackets in Custody </p>
-      </h2>
-    </div>
+  <div class="container">
+    <h2>Indigenous to Non-Indigenous Prisoner Proportion</h2>
+    <div id="pie_comparison"></div>
+  </div>
 
-    <div id="slopes" style="margin-bottom: 50px;"></div>
+  <div class="container">
+    <h2>Demographic Breakdown of Age Brackets in Custody</h2>
+    <div id="slopes"></div>
+  </div>
 
   <div class="page-wrapper">
-  <div class="content" style="margin-top: 10px;">
-    <p style="text-align: center; padding-top: 60px;">
-      Author: Eric Tianxiang Li
-      <br>
-      Date: 10/10/2024
-      <br>
-      Data Sources: "https://www.abs.gov.au/statistics/people/crime-and-justice/corrective-services-australia"
-      </a>
-    </p>
+    <div class="content">
+      <p>
+        Author: Eric Tianxiang Li
+        <br>
+        Date: 10/10/2024
+        <br>
+        Data Sources: 
+        <a href="https://www.abs.gov.au/statistics/people/crime-and-justice/corrective-services-australia" target="_blank">
+          Corrective Services Australia
+        </a>
+      </p>
+    </div>
   </div>
-</div>
 </body>
 
 </html>
