@@ -1,39 +1,37 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/Average-Daily-Imprisonment-Rate.csv",
-    "format": {
-      "type": "csv"
-    }
+      "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/Custody%20Quarter%20Average.csv",  
+      "format": {
+          "type": "csv"
+      }
   },
-  "transform": [
-    {
-      "fold": ["Mar Qtr 2023", "Jun Qtr 2023", "Mar Qtr 2024", "Jun Qtr 2024"],
-      "as": ["Quarter", "Value"]
-    }
-  ],
-  "mark": "bar",
+  "mark": {
+      "type": "line",
+      "point": true
+  },
   "encoding": {
-    "x": {
-      "field": "States",
-      "type": "nominal",
-      "title": "States",
-      "axis": {"labelAngle": 45}
-    },
-    "y": {
-      "field": "Value",
-      "type": "quantitative",
-      "title": "Value"
-    },
-    "color": {
-      "field": "Quarter",
-      "type": "nominal",
-      "title": "Quarter"
-    },
-    "xOffset": {
-      "field": "Quarter"
-    }
-  },
-  "width": 600,
-  "height": 300
+      "x": {
+          "field": "Quarter",
+          "type": "temporal", 
+          "title": "Quarter",
+          "axis": {
+              "format": "%b Qtr %Y" 
+          }
+      },
+      "y": {
+          "field": "Prisoners",
+          "type": "quantitative",
+          "title": "Number of Prisoners",
+          "scale": {
+              "domain": [40000, 45000]
+          }
+      },
+      "tooltip": [
+          {"field": "Quarter", "type": "temporal", "title": "Quarter"},
+          {"field": "Prisoners", "type": "quantitative", "title": "Prisoners"}
+      ]
+  }
 }
