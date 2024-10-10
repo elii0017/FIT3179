@@ -32,7 +32,7 @@
       "fields": ["Quarter"],
       "bind": {
         "input": "select",
-        "options": ["Mar Qtr 2023", "Jun Qtr 2023", "Mar Qtr 2024", "Jun Qtr 2024"],
+        "options": ["Mar Qtr 2023", "Jun Qtr 2023"],
         "name": "Select Quarter: "
       },
       "init": {"Quarter": "Mar Qtr 2023"}
