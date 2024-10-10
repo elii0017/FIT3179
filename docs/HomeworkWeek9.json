@@ -15,11 +15,11 @@
           "url": "https://raw.githubusercontent.com/elii0017/FIT3179/refs/heads/main/Excel%20Files/Average-Daily-Imprisonment-Rate.csv"
         },
         "key": "States",
-        "fields": ["Mar Qtr 2023", "Jun Qtr 2023", "Mar Qtr 2024", "Jun Qtr 2024"]
+        "fields": ["Mar Qtr 2023", "Jun Qtr 2023"]
       }
     },
     {
-      "fold": ["Mar Qtr 2023", "Jun Qtr 2023", "Mar Qtr 2024", "Jun Qtr 2024"],
+      "fold": ["Mar Qtr 2023", "Jun Qtr 2023"],
       "as": ["Quarter", "ImprisonmentRate"]
     },
     {
