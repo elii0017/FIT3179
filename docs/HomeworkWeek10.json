@@ -11,15 +11,35 @@
     }
   },
   
-  "transform": [
+"transform": [
+  {
+    "calculate": "datum.Demographic + ' ' + datum.Gender",
+    "as": "DemographicGender"
+  },
     {
-      "calculate": "datum.Demographic + ' ' + datum.Gender",
-      "as": "DemographicGender"
-    },
-    {
-      "filter": {"selection": "stateFilter"}
-    }
-  ],
+    "calculate": "replace(datum.DemographicGender, 'Australian Total', 'Total')",
+    "as": "DemographicGender"
+  },
+  {
+    "calculate": "replace(datum.DemographicGender, 'Australian Male', 'Males')",
+    "as": "DemographicGender"
+  },
+  {
+    "calculate": "replace(datum.DemographicGender, 'Australian Female', 'Females')",
+    "as": "DemographicGender"
+  },
+  {
+    "calculate": "replace(datum.DemographicGender, 'Indigenous Male', 'Indigenous Males')",
+    "as": "DemographicGender"
+  },
+  {
+    "calculate": "replace(datum.DemographicGender, 'Indigenous Female', 'Indigenous Females')",
+    "as": "DemographicGender"
+  },
+  {
+    "filter": {"selection": "stateFilter"}
+  }
+],
   
   "selection": {
     "stateFilter": {
@@ -49,10 +69,11 @@
     }
   },
   
-  "mark": {
-    "type": "line",
-    "point": true
+    "mark": {
+      "type": "line",
+      "point": true
   },
+  
   "encoding": {
     "x": {
       "field": "Year",
@@ -71,15 +92,15 @@
         "type": "nominal",
         "scale": {
           "domain": [
-            "Australian Total",
-            "Australian Male",
-            "Non-Indigenous Total",
-            "Non-Indigenous Male",
-            "Indigenous Total",
-            "Indigenous Male",
-            "Australian Female",
-            "Non-Indigenous Female",
-            "Indigenous Female"
+        "Total",
+        "Males",
+        "Non-Indigenous Total",
+        "Non-Indigenous Males",
+        "Indigenous Total",
+        "Indigenous Males",
+        "Females",
+        "Non-Indigenous Females",
+        "Indigenous Females"
           ],
           "scheme": "dark2"
         },
