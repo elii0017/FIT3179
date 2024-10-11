@@ -87,6 +87,24 @@
       text-align: center;
       padding-top: 60px;
     }
+    .visualization-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .visualization {
+      flex: 3; /* The visualization takes up 75% of the space */
+      max-width: 75%;
+    }
+
+    .visualization-text {
+      flex: 1; /* The text takes up 25% of the space */
+      padding-left: 20px; /* Add some space between the visualization and the text */
+      font-size: 1.1em;
+      color: gray;
+      line-height: 1.6;
+    }    
   </style>
 </head>
 
@@ -120,14 +138,17 @@
 
     <div class="container">
       <h2>Australia's Daily Imprisonment Rate</h2>
-      <div id="heat_map" class="visualization"></div>
-      <p style="width: 40%;">
-        Australia's Jun Qtr 2024 Imprisonment Rate was 208 persons per 100,000 in the adult population.
-        The Northen Territory has the highest imprisonment rate (>1000) out of any other state or territory.
-        The map does not display the change in March Qtr 2024 or June Qtr 2024 as it does not adequately display
-        the change in daily imprisonment rates across each state.
-      </p>
+      <div class="visualization-container">
+        <div id="heat_map" class="visualization"></div>
+        <p class="visualization-text">
+          Australia's Jun Qtr 2024 Imprisonment Rate was 208 persons per 100,000 in the adult population.
+          The Northern Territory has the highest imprisonment rate (>1000) out of any other state or territory.
+          The map does not display the change in March Qtr 2024 or June Qtr 2024 as it does not adequately display
+          the change in daily imprisonment rates across each state.
+        </p>
+      </div>
     </div>
+
 
     <div class="container">
       <h2>Imprisonment Rate Breakdown</h2> 
