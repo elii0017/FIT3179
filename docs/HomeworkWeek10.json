@@ -86,12 +86,12 @@
       "title": "Prisoner Receptions"
     },
     "color": {
-      "condition": {
-        "selection": "colorFilter",
-        "field": "DemographicGender",
-        "type": "nominal",
-        "scale": {
-          "domain": [
+  "condition": {
+    "selection": "colorFilter",
+    "field": "DemographicGender",
+    "type": "nominal",
+    "scale": {
+      "domain": [
         "Total",
         "Males",
         "Non-Indigenous Total",
@@ -101,18 +101,15 @@
         "Females",
         "Non-Indigenous Females",
         "Indigenous Females"
-          ],
-          "scheme": "dark2"
-        },
-        "title": "Demographic and Gender"
-      },
-      "value": "lightgray"
+      ],
+      "scheme": "dark2"
     },
-    "tooltip": [
-      {"field": "State", "type": "nominal", "title": "State"},
-      {"field": "Count", "type": "quantitative", "title": "Prisoner Receptions"},
-      {"field": "Demographic", "type": "nominal", "title": "Demographic"},
-      {"field": "Gender", "type": "nominal", "title": "Gender"}
-    ]
+    "title": "Demographic and Gender",
+    "legend": {
+      "orient": "bottom" 
+    }
+  },
+  "value": "lightgray"
+  }
   }
 }
