@@ -107,7 +107,7 @@
     "title": "Demographic and Gender",
     "legend": {
       "orient": "top",
-      "columnss": 5
+      "columns": 5
     }
   },
   "value": "lightgray"
