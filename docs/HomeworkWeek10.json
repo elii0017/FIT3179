@@ -85,7 +85,7 @@
       "type": "quantitative",
       "title": "Prisoner Receptions"
     },
-    "color": {
+"color": {
   "condition": {
     "selection": "colorFilter",
     "field": "DemographicGender",
@@ -106,11 +106,17 @@
     },
     "title": "Demographic and Gender",
     "legend": {
-      "orient": "top",
-      "columns": 5
-    }
-  },
-  "value": "lightgray"
-  }
+      "orient": "top", 
+      "columns": 5 
+      }
+    },
+      "value": "lightgray"
+    },
+    "tooltip": [
+      {"field": "State", "type": "nominal", "title": "State"},
+      {"field": "Count", "type": "quantitative", "title": "Prisoner Receptions"},
+      {"field": "Demographic", "type": "nominal", "title": "Demographic"},
+      {"field": "Gender", "type": "nominal", "title": "Gender"}
+    ]
   }
 }
